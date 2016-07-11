@@ -1,0 +1,43 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/tet(32)_1_EU722333.aln -c tet(32)_1_EU722333 -R tet(32)_1_EU722333 -o db_vcf/tet(32)_1_EU722333.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=tet(32)_1_EU722333,length=1920>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	tet(32)_1_EU722333	tet(32)_2_EF626943
+tet(32)_1_EU722333	18	.	C	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	21	.	C	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	27	.	G	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	51	.	T	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	60	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	66	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	72	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	99	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	117	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	120	.	C	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	153	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	156	.	G	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	190	.	TAT	TGC	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	300	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	413	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	415	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	516	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	704	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	726	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	914	.	C	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	975	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	978	.	C	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	1096	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	1149	.	C	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	1161	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	1289	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	1596	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	1671	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	1737	.	T	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	1758	.	C	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	1770	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	1777	.	C	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(32)_1_EU722333	1854	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1

@@ -1,0 +1,12 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaFOX-5_1_AY007369.aln -c blaFOX-5_1_AY007369 -R blaFOX-5_1_AY007369 -o db_vcf/blaFOX-5_1_AY007369.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaFOX-5_1_AY007369,length=1149>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaFOX-10_1_JX049131	blaFOX-5_1_AY007369	blaFOX-6_1_AY034848
+blaFOX-5_1_AY007369	529	.	G	A	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaFOX-5_1_AY007369	822	.	G	C	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1

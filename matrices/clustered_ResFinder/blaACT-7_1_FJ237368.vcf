@@ -1,0 +1,32 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaACT-7_1_FJ237368.aln -c blaACT-7_1_FJ237368 -R blaACT-7_1_FJ237368 -o db_vcf/blaACT-7_1_FJ237368.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaACT-7_1_FJ237368,length=1146>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaACT-15_1_JX440356	blaACT-16_1_AB737978	blaACT-7_1_FJ237368
+blaACT-7_1_FJ237368	8	.	G	A	.	.	DP=3	GT:DP	1/1:1	1/1:1	0/0:1
+blaACT-7_1_FJ237368	36	.	C	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaACT-7_1_FJ237368	40	.	A	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaACT-7_1_FJ237368	42	.	C	T	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaACT-7_1_FJ237368	61	.	A	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaACT-7_1_FJ237368	69	.	G	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaACT-7_1_FJ237368	96	.	A	C	.	.	DP=3	GT:DP	1/1:1	1/1:1	0/0:1
+blaACT-7_1_FJ237368	172	.	C	T	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaACT-7_1_FJ237368	490	.	C	T	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaACT-7_1_FJ237368	633	.	G	T	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaACT-7_1_FJ237368	651	.	A	G	.	.	DP=3	GT:DP	1/1:1	1/1:1	0/0:1
+blaACT-7_1_FJ237368	702	.	T	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaACT-7_1_FJ237368	786	.	C	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaACT-7_1_FJ237368	792	.	T	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaACT-7_1_FJ237368	915	.	G	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaACT-7_1_FJ237368	948	.	G	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaACT-7_1_FJ237368	956	.	C	T	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaACT-7_1_FJ237368	1011	.	C	T	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaACT-7_1_FJ237368	1017	.	T	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaACT-7_1_FJ237368	1085	.	C	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaACT-7_1_FJ237368	1107	.	C	T	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaACT-7_1_FJ237368	1140	.	ACAGTAA	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1

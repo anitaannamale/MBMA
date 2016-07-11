@@ -1,0 +1,16 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/dfrA1_25_AJ844287.aln -c dfrA1_25_AJ844287 -R dfrA1_25_AJ844287 -o db_vcf/dfrA1_25_AJ844287.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=dfrA1_25_AJ844287,length=474>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	dfrA1_1_X00926	dfrA1_25_AJ844287	dfrA1_2_AJ419168	dfrA1_30_JQ690541	dfrA1_5_AJ238350
+dfrA1_25_AJ844287	39	.	G	A	.	.	DP=5	GT:DP	1/1:1	0/0:1	1/1:1	1/1:1	1/1:1
+dfrA1_25_AJ844287	193	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+dfrA1_25_AJ844287	223	.	T	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	1/1:1
+dfrA1_25_AJ844287	285	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+dfrA1_25_AJ844287	378	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+dfrA1_25_AJ844287	385	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1

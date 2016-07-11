@@ -1,0 +1,14 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/ARR-3_4_FM207631.aln -c ARR-3_4_FM207631 -R ARR-3_4_FM207631 -o db_vcf/ARR-3_4_FM207631.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=ARR-3_4_FM207631,length=543>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	ARR-2_1_HQ141279	ARR-3_1_JF806499	ARR-3_4_FM207631	ARR-6_3_JF922883
+ARR-3_4_FM207631	0	.	ATGTTATGGAGCAGCAACGATGTTACGCAGCAGGGCAGTCGCCCTAAAACAAAGTTATGCAGCCAAATCCCAACAATTAAGGGTCTTAAA	.	.	.	DP=1	GT:DP	./.	./.	0/0:1	./.
+ARR-3_4_FM207631	209	.	T	C	.	.	DP=4	GT:DP	1/1:1	1/1:1	0/0:1	1/1:1
+ARR-3_4_FM207631	383	.	A	G	.	.	DP=4	GT:DP	0/0:1	1/1:1	0/0:1	1/1:1
+ARR-3_4_FM207631	501	.	A	G	.	.	DP=4	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1

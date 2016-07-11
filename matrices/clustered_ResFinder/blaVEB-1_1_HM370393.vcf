@@ -1,0 +1,17 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaVEB-1_1_HM370393.aln -c blaVEB-1_1_HM370393 -R blaVEB-1_1_HM370393 -o db_vcf/blaVEB-1_1_HM370393.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaVEB-1_1_HM370393,length=900>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaVEB-1_1_HM370393	blaVEB-1_3_DQ393569	blaVEB-1_4_AF324834	blaVEB-2_1_AY027870	blaVEB-3_1_AY536519	blaVEB-4_1_EF136375	blaVEB-5_1_EF420108	blaVEB-6_1_EU259884	blaVEB-7_1_FJ825622	blaVEB-8_1_JX679208
+blaVEB-1_1_HM370393	52	.	G	A	.	.	DP=10	GT:DP	0/0:1	1/1:1	0/0:1	1/1:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaVEB-1_1_HM370393	56	.	T	A	.	.	DP=10	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	1/1:1	1/1:1
+blaVEB-1_1_HM370393	73	.	A	G	.	.	DP=10	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	1/1:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaVEB-1_1_HM370393	168	.	G	T	.	.	DP=10	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaVEB-1_1_HM370393	311	.	C	T	.	.	DP=10	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	1/1:1	1/1:1	0/0:1	1/1:1
+blaVEB-1_1_HM370393	655	.	A	G	.	.	DP=10	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaVEB-1_1_HM370393	742	.	G	A	.	.	DP=10	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1

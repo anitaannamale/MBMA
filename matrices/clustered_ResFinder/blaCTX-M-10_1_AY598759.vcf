@@ -1,0 +1,40 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaCTX-M-10_1_AY598759.aln -c blaCTX-M-10_1_AY598759 -R blaCTX-M-10_1_AY598759 -o db_vcf/blaCTX-M-10_1_AY598759.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaCTX-M-10_1_AY598759,length=876>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaCTX-M-10_1_AY598759	blaCTX-M-34_1_AY515297	blaCTX-M-37_2_FN813246	blaCTX-M-53_1_DQ268764	blaCTX-M-68_1_EU177100
+blaCTX-M-10_1_AY598759	60	.	G	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaCTX-M-10_1_AY598759	79	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	1/1:1
+blaCTX-M-10_1_AY598759	92	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaCTX-M-10_1_AY598759	125	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaCTX-M-10_1_AY598759	165	.	G	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaCTX-M-10_1_AY598759	195	.	T	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaCTX-M-10_1_AY598759	204	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaCTX-M-10_1_AY598759	239	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaCTX-M-10_1_AY598759	252	.	G	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaCTX-M-10_1_AY598759	294	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaCTX-M-10_1_AY598759	342	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	1/1:1
+blaCTX-M-10_1_AY598759	349	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaCTX-M-10_1_AY598759	375	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaCTX-M-10_1_AY598759	405	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaCTX-M-10_1_AY598759	453	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	1/1:1
+blaCTX-M-10_1_AY598759	480	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaCTX-M-10_1_AY598759	483	.	A	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaCTX-M-10_1_AY598759	501	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	1/1:1
+blaCTX-M-10_1_AY598759	522	.	C	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaCTX-M-10_1_AY598759	531	.	T	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaCTX-M-10_1_AY598759	564	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaCTX-M-10_1_AY598759	603	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaCTX-M-10_1_AY598759	609	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaCTX-M-10_1_AY598759	663	.	A	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaCTX-M-10_1_AY598759	669	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaCTX-M-10_1_AY598759	721	.	G	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaCTX-M-10_1_AY598759	725	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaCTX-M-10_1_AY598759	791	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaCTX-M-10_1_AY598759	807	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaCTX-M-10_1_AY598759	876	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1

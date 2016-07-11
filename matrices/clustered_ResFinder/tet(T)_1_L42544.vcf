@@ -1,0 +1,14 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/tet(T)_1_L42544.aln -c tet(T)_1_L42544 -R tet(T)_1_L42544 -o db_vcf/tet(T)_1_L42544.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=tet(T)_1_L42544,length=1956>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	tet(T)_1_L42544	tet(T)_2_AY660530
+tet(T)_1_L42544	913	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(T)_1_L42544	941	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(T)_1_L42544	1187	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(T)_1_L42544	1261	.	G	T	.	.	DP=2	GT:DP	0/0:1	1/1:1

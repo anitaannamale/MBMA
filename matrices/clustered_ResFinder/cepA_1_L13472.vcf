@@ -1,0 +1,25 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/cepA_1_L13472.aln -c cepA_1_L13472 -R cepA_1_L13472 -o db_vcf/cepA_1_L13472.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=cepA_1_L13472,length=903>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	cepA-29_1_U05884	cepA-44_1_U05885	cepA-49_1_U05886	cepA_1_L13472	cepA_1_U05887	cepA_6_FR688022
+cepA_1_L13472	93	.	C	A	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+cepA_1_L13472	166	.	G	A	.	.	DP=6	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+cepA_1_L13472	189	.	C	T	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+cepA_1_L13472	262	.	G	A	.	.	DP=6	GT:DP	1/1:1	1/1:1	0/0:1	0/0:1	1/1:1	0/0:1
+cepA_1_L13472	326	.	C	T	.	.	DP=6	GT:DP	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+cepA_1_L13472	333	.	A	G	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+cepA_1_L13472	511	.	A	G	.	.	DP=6	GT:DP	1/1:1	1/1:1	0/0:1	0/0:1	1/1:1	1/1:1
+cepA_1_L13472	552	.	A	G	.	.	DP=6	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	1/1:1
+cepA_1_L13472	735	.	A	G	.	.	DP=6	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+cepA_1_L13472	781	.	G	A	.	.	DP=6	GT:DP	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+cepA_1_L13472	788	.	C	T	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	1/1:1	0/0:1
+cepA_1_L13472	795	.	T	C	.	.	DP=6	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+cepA_1_L13472	834	.	A	G	.	.	DP=6	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+cepA_1_L13472	866	.	G	A	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+cepA_1_L13472	887	.	C	A	.	.	DP=6	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1

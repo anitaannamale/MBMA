@@ -1,0 +1,25 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaMAL-1_1_AJ277209.aln -c blaMAL-1_1_AJ277209 -R blaMAL-1_1_AJ277209 -o db_vcf/blaMAL-1_1_AJ277209.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaMAL-1_1_AJ277209,length=903>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaCKO-1_1_AF477396	blaMAL-1_1_AJ277209	blaMAL-1_2_AJ609506
+blaMAL-1_1_AJ277209	49	.	T	C	.	.	DP=3	GT:DP	1/1:1	0/0:1	1/1:1
+blaMAL-1_1_AJ277209	115	.	A	G	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaMAL-1_1_AJ277209	125	.	C	T	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaMAL-1_1_AJ277209	305	.	C	T	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaMAL-1_1_AJ277209	316	.	T	C	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaMAL-1_1_AJ277209	321	.	G	A	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaMAL-1_1_AJ277209	324	.	G	A	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaMAL-1_1_AJ277209	498	.	A	G	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaMAL-1_1_AJ277209	525	.	T	C	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaMAL-1_1_AJ277209	549	.	C	T	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaMAL-1_1_AJ277209	651	.	G	A	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaMAL-1_1_AJ277209	675	.	T	C	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaMAL-1_1_AJ277209	705	.	T	C	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaMAL-1_1_AJ277209	793	.	C	T	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaMAL-1_1_AJ277209	861	.	C	T	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1

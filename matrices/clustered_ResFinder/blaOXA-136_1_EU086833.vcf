@@ -1,0 +1,34 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaOXA-136_1_EU086833.aln -c blaOXA-136_1_EU086833 -R blaOXA-136_1_EU086833 -o db_vcf/blaOXA-136_1_EU086833.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaOXA-136_1_EU086833,length=811>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaOXA-136_1_EU086833	blaOXA-136_2_EU086832	blaOXA-137_1_EU086836	blaOXA-192_1_JF273470	blaOXA-63_1_AY619003
+blaOXA-136_1_EU086833	47	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaOXA-136_1_EU086833	71	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-136_1_EU086833	162	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-136_1_EU086833	286	.	TA	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaOXA-136_1_EU086833	299	.	AAGT	AG	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaOXA-136_1_EU086833	309	.	C	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	0/0:1
+blaOXA-136_1_EU086833	324	.	A	G	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	0/0:1
+blaOXA-136_1_EU086833	357	.	G	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-136_1_EU086833	395	.	GTC	GTA,GGC	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	2/2:1	1/1:1
+blaOXA-136_1_EU086833	400	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-136_1_EU086833	446	.	G	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-136_1_EU086833	511	.	G	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaOXA-136_1_EU086833	546	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-136_1_EU086833	548	.	C	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaOXA-136_1_EU086833	574	.	A	G	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	0/0:1
+blaOXA-136_1_EU086833	589	.	A	AT	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaOXA-136_1_EU086833	605	.	T	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-136_1_EU086833	607	.	CA	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaOXA-136_1_EU086833	610	.	TTA	TAT	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaOXA-136_1_EU086833	647	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-136_1_EU086833	679	.	C	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-136_1_EU086833	701	.	G	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-136_1_EU086833	712	.	C	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	0/0:1	0/0:1
+blaOXA-136_1_EU086833	739	.	C	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1

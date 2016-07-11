@@ -1,0 +1,28 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/tet(M)_2_X90939.aln -c tet(M)_2_X90939 -R tet(M)_2_X90939 -o db_vcf/tet(M)_2_X90939.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=tet(M)_2_X90939,length=1920>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	tet(M)_12_FR671418	tet(M)_2_X90939
+tet(M)_2_X90939	42	.	G	A	.	.	DP=2	GT:DP	1/1:1	0/0:1
+tet(M)_2_X90939	627	.	T	G	.	.	DP=2	GT:DP	1/1:1	0/0:1
+tet(M)_2_X90939	636	.	C	T	.	.	DP=2	GT:DP	1/1:1	0/0:1
+tet(M)_2_X90939	646	.	G	C	.	.	DP=2	GT:DP	1/1:1	0/0:1
+tet(M)_2_X90939	654	.	C	T	.	.	DP=2	GT:DP	1/1:1	0/0:1
+tet(M)_2_X90939	667	.	AAC	AGT	.	.	DP=2	GT:DP	1/1:1	0/0:1
+tet(M)_2_X90939	1339	.	T	C	.	.	DP=2	GT:DP	1/1:1	0/0:1
+tet(M)_2_X90939	1348	.	T	G	.	.	DP=2	GT:DP	1/1:1	0/0:1
+tet(M)_2_X90939	1352	.	C	A	.	.	DP=2	GT:DP	1/1:1	0/0:1
+tet(M)_2_X90939	1359	.	G	A	.	.	DP=2	GT:DP	1/1:1	0/0:1
+tet(M)_2_X90939	1362	.	G	A	.	.	DP=2	GT:DP	1/1:1	0/0:1
+tet(M)_2_X90939	1365	.	A	G	.	.	DP=2	GT:DP	1/1:1	0/0:1
+tet(M)_2_X90939	1368	.	T	C	.	.	DP=2	GT:DP	1/1:1	0/0:1
+tet(M)_2_X90939	1372	.	A	G	.	.	DP=2	GT:DP	1/1:1	0/0:1
+tet(M)_2_X90939	1374	.	G	A	.	.	DP=2	GT:DP	1/1:1	0/0:1
+tet(M)_2_X90939	1416	.	A	G	.	.	DP=2	GT:DP	1/1:1	0/0:1
+tet(M)_2_X90939	1437	.	A	G	.	.	DP=2	GT:DP	1/1:1	0/0:1
+tet(M)_2_X90939	1667	.	C	A	.	.	DP=2	GT:DP	1/1:1	0/0:1

@@ -1,0 +1,17 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaACT-1_1_U58495.aln -c blaACT-1_1_U58495 -R blaACT-1_1_U58495 -o db_vcf/blaACT-1_1_U58495.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaACT-1_1_U58495,length=1146>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaACT-1_1_U58495	blaACT-2_1_AM076977	blaACT-3_1_EF125013
+blaACT-1_1_U58495	102	.	A	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaACT-1_1_U58495	303	.	C	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaACT-1_1_U58495	440	.	A	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+blaACT-1_1_U58495	686	.	CAG	CGA,CGG	.	.	DP=3	GT:DP	0/0:1	2/2:1	1/1:1
+blaACT-1_1_U58495	936	.	T	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaACT-1_1_U58495	975	.	A	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaACT-1_1_U58495	990	.	C	T	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1

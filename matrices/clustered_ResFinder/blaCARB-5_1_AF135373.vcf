@@ -1,0 +1,17 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaCARB-5_1_AF135373.aln -c blaCARB-5_1_AF135373 -R blaCARB-5_1_AF135373 -o db_vcf/blaCARB-5_1_AF135373.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaCARB-5_1_AF135373,length=897>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaCARB-10_1_EU850412	blaCARB-5_1_AF135373	blaCARB-8_1_AY178993
+blaCARB-5_1_AF135373	4	.	A	G	.	.	DP=3	GT:DP	1/1:1	0/0:1	1/1:1
+blaCARB-5_1_AF135373	13	.	A	C	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaCARB-5_1_AF135373	152	.	T	C	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaCARB-5_1_AF135373	212	.	G	C	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaCARB-5_1_AF135373	438	.	T	G	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaCARB-5_1_AF135373	717	.	C	T	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaCARB-5_1_AF135373	871	.	G	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1

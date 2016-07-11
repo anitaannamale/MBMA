@@ -1,0 +1,31 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/tet(O)_1_M18896.aln -c tet(O)_1_M18896 -R tet(O)_1_M18896 -o db_vcf/tet(O)_1_M18896.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=tet(O)_1_M18896,length=1920>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	tet(O)_1_M18896	tet(O)_2_M20925	tet(O)_3_Y07780
+tet(O)_1_M18896	63	.	A	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+tet(O)_1_M18896	98	.	T	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+tet(O)_1_M18896	112	.	G	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+tet(O)_1_M18896	353	.	T	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+tet(O)_1_M18896	424	.	CGG	CGA,CAA	.	.	DP=3	GT:DP	0/0:1	1/1:1	2/2:1
+tet(O)_1_M18896	501	.	G	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+tet(O)_1_M18896	529	.	G	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+tet(O)_1_M18896	660	.	C	T	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+tet(O)_1_M18896	680	.	C	T	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+tet(O)_1_M18896	699	.	A	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+tet(O)_1_M18896	711	.	A	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+tet(O)_1_M18896	845	.	G	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+tet(O)_1_M18896	884	.	A	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+tet(O)_1_M18896	993	.	A	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+tet(O)_1_M18896	1036	.	A	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+tet(O)_1_M18896	1111	.	T	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+tet(O)_1_M18896	1221	.	T	C	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+tet(O)_1_M18896	1410	.	T	C	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+tet(O)_1_M18896	1674	.	T	C	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+tet(O)_1_M18896	1708	.	A	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+tet(O)_1_M18896	1749	.	T	C	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1

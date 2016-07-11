@@ -1,0 +1,32 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaOXA-228_1_JQ422053.aln -c blaOXA-228_1_JQ422053 -R blaOXA-228_1_JQ422053 -o db_vcf/blaOXA-228_1_JQ422053.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaOXA-228_1_JQ422053,length=831>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaOXA-228_1_JQ422053	blaOXA-229_1_JQ422052	blaOXA-230_1_JQ422054	blaOXA-257_1_KC567681	blaOXA-355_1_KF297584	blaOXA-356_1_KF297585
+blaOXA-228_1_JQ422053	29	.	G	A	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaOXA-228_1_JQ422053	79	.	T	C	.	.	DP=6	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1
+blaOXA-228_1_JQ422053	107	.	T	A	.	.	DP=6	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1
+blaOXA-228_1_JQ422053	130	.	A	G	.	.	DP=6	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-228_1_JQ422053	275	.	C	G	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaOXA-228_1_JQ422053	295	.	G	A	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaOXA-228_1_JQ422053	303	.	T	G	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaOXA-228_1_JQ422053	321	.	C	T	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaOXA-228_1_JQ422053	384	.	T	C	.	.	DP=6	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1
+blaOXA-228_1_JQ422053	393	.	A	G	.	.	DP=6	GT:DP	0/0:1	1/1:1	0/0:1	1/1:1	1/1:1	1/1:1
+blaOXA-228_1_JQ422053	453	.	T	C	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaOXA-228_1_JQ422053	456	.	C	T	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-228_1_JQ422053	462	.	G	A	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-228_1_JQ422053	501	.	T	G	.	.	DP=6	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-228_1_JQ422053	516	.	C	T	.	.	DP=6	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-228_1_JQ422053	552	.	A	G	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	1/1:1	0/0:1
+blaOXA-228_1_JQ422053	564	.	G	A	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1
+blaOXA-228_1_JQ422053	573	.	TTC	TCG	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1
+blaOXA-228_1_JQ422053	744	.	C	A	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaOXA-228_1_JQ422053	757	.	A	G	.	.	DP=6	GT:DP	0/0:1	1/1:1	0/0:1	1/1:1	1/1:1	1/1:1
+blaOXA-228_1_JQ422053	764	.	C	T	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaOXA-228_1_JQ422053	766	.	G	A	.	.	DP=6	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1

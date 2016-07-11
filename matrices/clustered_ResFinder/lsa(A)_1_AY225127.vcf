@@ -1,0 +1,38 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/lsa(A)_1_AY225127.aln -c lsa(A)_1_AY225127 -R lsa(A)_1_AY225127 -o db_vcf/lsa(A)_1_AY225127.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=lsa(A)_1_AY225127,length=1497>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	lsa(A)_1_AY225127	lsa(A)_2_AY58982	lsa(A)_3_AY737526
+lsa(A)_1_AY225127	52	.	GCG	GTA	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+lsa(A)_1_AY225127	159	.	G	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+lsa(A)_1_AY225127	283	.	A	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+lsa(A)_1_AY225127	405	.	T	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+lsa(A)_1_AY225127	576	.	A	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+lsa(A)_1_AY225127	589	.	G	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+lsa(A)_1_AY225127	741	.	T	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+lsa(A)_1_AY225127	747	.	A	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+lsa(A)_1_AY225127	756	.	G	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+lsa(A)_1_AY225127	799	.	G	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+lsa(A)_1_AY225127	837	.	T	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+lsa(A)_1_AY225127	981	.	A	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+lsa(A)_1_AY225127	985	.	A	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+lsa(A)_1_AY225127	991	.	A	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+lsa(A)_1_AY225127	1023	.	C	T	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+lsa(A)_1_AY225127	1035	.	A	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+lsa(A)_1_AY225127	1062	.	G	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+lsa(A)_1_AY225127	1074	.	G	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+lsa(A)_1_AY225127	1078	.	GGGG	GATA	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+lsa(A)_1_AY225127	1092	.	A	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+lsa(A)_1_AY225127	1104	.	A	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+lsa(A)_1_AY225127	1114	.	C	T	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+lsa(A)_1_AY225127	1212	.	C	T	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+lsa(A)_1_AY225127	1251	.	C	T	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+lsa(A)_1_AY225127	1377	.	G	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+lsa(A)_1_AY225127	1418	.	G	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+lsa(A)_1_AY225127	1470	.	G	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+lsa(A)_1_AY225127	1484	.	C	T	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1

@@ -1,0 +1,29 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/tet(J)_1_ACLE01000065.aln -c tet(J)_1_ACLE01000065 -R tet(J)_1_ACLE01000065 -o db_vcf/tet(J)_1_ACLE01000065.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=tet(J)_1_ACLE01000065,length=1197>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	tet(J)_1_ACLE01000065	tet(J)_2_AF038993
+tet(J)_1_ACLE01000065	226	.	T	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(J)_1_ACLE01000065	243	.	G	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(J)_1_ACLE01000065	271	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(J)_1_ACLE01000065	273	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(J)_1_ACLE01000065	303	.	C	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(J)_1_ACLE01000065	306	.	T	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(J)_1_ACLE01000065	363	.	T	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(J)_1_ACLE01000065	369	.	C	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(J)_1_ACLE01000065	456	.	G	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(J)_1_ACLE01000065	561	.	A	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(J)_1_ACLE01000065	597	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(J)_1_ACLE01000065	607	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(J)_1_ACLE01000065	635	.	G	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(J)_1_ACLE01000065	714	.	G	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(J)_1_ACLE01000065	852	.	T	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(J)_1_ACLE01000065	909	.	C	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(J)_1_ACLE01000065	1002	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(J)_1_ACLE01000065	1020	.	A	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(J)_1_ACLE01000065	1137	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1

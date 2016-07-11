@@ -1,0 +1,13 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/erm(G)_1_M15332.aln -c erm(G)_1_M15332 -R erm(G)_1_M15332 -o db_vcf/erm(G)_1_M15332.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=erm(G)_1_M15332,length=735>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	erm(G)_1_M15332	erm(G)_2_L42817
+erm(G)_1_M15332	401	.	G	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+erm(G)_1_M15332	514	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+erm(G)_1_M15332	609	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1

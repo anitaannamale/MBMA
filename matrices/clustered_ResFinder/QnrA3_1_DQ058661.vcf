@@ -1,0 +1,21 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/QnrA3_1_DQ058661.aln -c QnrA3_1_DQ058661 -R QnrA3_1_DQ058661 -o db_vcf/QnrA3_1_DQ058661.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=QnrA3_1_DQ058661,length=657>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	QnrA3_1_DQ058661	QnrA4_1_DQ058662	QnrA5_1_DQ058663	QnrA6_1_DQ151889	QnrA7_1_GQ463707
+QnrA3_1_DQ058661	57	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+QnrA3_1_DQ058661	63	.	T	C	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1
+QnrA3_1_DQ058661	160	.	G	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+QnrA3_1_DQ058661	243	.	T	C	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+QnrA3_1_DQ058661	366	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	1/1:1
+QnrA3_1_DQ058661	389	.	G	A	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+QnrA3_1_DQ058661	480	.	CCG	CTG,CCA	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	2/2:1	2/2:1
+QnrA3_1_DQ058661	510	.	A	G	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	0/0:1	0/0:1
+QnrA3_1_DQ058661	540	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+QnrA3_1_DQ058661	564	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	1/1:1
+QnrA3_1_DQ058661	639	.	C	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1

@@ -1,0 +1,22 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaIND-3_1_AF219131.aln -c blaIND-3_1_AF219131 -R blaIND-3_1_AF219131 -o db_vcf/blaIND-3_1_AF219131.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaIND-3_1_AF219131,length=720>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaIND-14_1_HM367709	blaIND-3_1_AF219131
+blaIND-3_1_AF219131	46	.	T	C	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaIND-3_1_AF219131	198	.	C	T	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaIND-3_1_AF219131	201	.	C	T	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaIND-3_1_AF219131	273	.	T	G	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaIND-3_1_AF219131	355	.	T	G	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaIND-3_1_AF219131	369	.	A	G	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaIND-3_1_AF219131	423	.	G	A	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaIND-3_1_AF219131	426	.	A	T	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaIND-3_1_AF219131	513	.	C	T	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaIND-3_1_AF219131	685	.	G	A	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaIND-3_1_AF219131	688	.	A	G	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaIND-3_1_AF219131	690	.	A	G	.	.	DP=2	GT:DP	1/1:1	0/0:1

@@ -1,0 +1,12 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/tet(M)_10_EU182585.aln -c tet(M)_10_EU182585 -R tet(M)_10_EU182585 -o db_vcf/tet(M)_10_EU182585.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=tet(M)_10_EU182585,length=1920>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	tet(M)_10_EU182585	tet(M)_11_JN846696
+tet(M)_10_EU182585	18	.	T	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+tet(M)_10_EU182585	21	.	A	T	.	.	DP=2	GT:DP	0/0:1	1/1:1

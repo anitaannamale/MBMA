@@ -1,0 +1,23 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/cmlA1_1_M64556.aln -c cmlA1_1_M64556 -R cmlA1_1_M64556 -o db_vcf/cmlA1_1_M64556.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=cmlA1_1_M64556,length=1260>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	cmlA1_1_M64556	cmlA1_2_AB212941
+cmlA1_1_M64556	4	.	A	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+cmlA1_1_M64556	15	.	C	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+cmlA1_1_M64556	105	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+cmlA1_1_M64556	369	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+cmlA1_1_M64556	795	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+cmlA1_1_M64556	816	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+cmlA1_1_M64556	840	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+cmlA1_1_M64556	911	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+cmlA1_1_M64556	934	.	G	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+cmlA1_1_M64556	1181	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+cmlA1_1_M64556	1183	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+cmlA1_1_M64556	1235	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+cmlA1_1_M64556	1242	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1

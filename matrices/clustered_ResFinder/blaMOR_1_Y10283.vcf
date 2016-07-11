@@ -1,0 +1,28 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaMOR_1_Y10283.aln -c blaMOR_1_Y10283 -R blaMOR_1_Y10283 -o db_vcf/blaMOR_1_Y10283.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaMOR_1_Y10283,length=1140>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaMOR-2_1_AY235804	blaMOR_1_Y10283
+blaMOR_1_Y10283	5	.	A	C	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaMOR_1_Y10283	11	.	CGT	CTG	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaMOR_1_Y10283	36	.	T	C	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaMOR_1_Y10283	45	.	G	A	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaMOR_1_Y10283	310	.	T	C	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaMOR_1_Y10283	372	.	A	G	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaMOR_1_Y10283	387	.	T	C	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaMOR_1_Y10283	420	.	G	A	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaMOR_1_Y10283	454	.	C	A	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaMOR_1_Y10283	552	.	G	A	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaMOR_1_Y10283	639	.	T	C	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaMOR_1_Y10283	723	.	T	C	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaMOR_1_Y10283	855	.	T	C	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaMOR_1_Y10283	861	.	T	G	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaMOR_1_Y10283	879	.	C	T	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaMOR_1_Y10283	915	.	C	T	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaMOR_1_Y10283	921	.	A	C	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaMOR_1_Y10283	1014	.	G	T	.	.	DP=2	GT:DP	1/1:1	0/0:1

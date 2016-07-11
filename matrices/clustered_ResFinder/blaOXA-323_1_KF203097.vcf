@@ -1,0 +1,38 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaOXA-323_1_KF203097.aln -c blaOXA-323_1_KF203097 -R blaOXA-323_1_KF203097 -o db_vcf/blaOXA-323_1_KF203097.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaOXA-323_1_KF203097,length=822>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaOXA-323_1_KF203097	blaOXA-327_1_KF203101	blaOXA-331_1_KF203105
+blaOXA-323_1_KF203097	6	.	T	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaOXA-323_1_KF203097	76	.	A	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaOXA-323_1_KF203097	87	.	T	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaOXA-323_1_KF203097	129	.	A	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaOXA-323_1_KF203097	153	.	T	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaOXA-323_1_KF203097	174	.	A	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaOXA-323_1_KF203097	290	.	T	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaOXA-323_1_KF203097	310	.	G	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+blaOXA-323_1_KF203097	315	.	A	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOXA-323_1_KF203097	324	.	C	T	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOXA-323_1_KF203097	348	.	C	T	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOXA-323_1_KF203097	355	.	C	T	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaOXA-323_1_KF203097	358	.	G	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOXA-323_1_KF203097	381	.	G	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOXA-323_1_KF203097	411	.	A	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOXA-323_1_KF203097	420	.	A	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOXA-323_1_KF203097	456	.	T	C	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOXA-323_1_KF203097	474	.	T	C	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOXA-323_1_KF203097	487	.	A	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOXA-323_1_KF203097	564	.	G	T	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOXA-323_1_KF203097	577	.	C	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOXA-323_1_KF203097	580	.	G	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOXA-323_1_KF203097	696	.	C	T	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaOXA-323_1_KF203097	726	.	G	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaOXA-323_1_KF203097	732	.	T	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaOXA-323_1_KF203097	798	.	C	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaOXA-323_1_KF203097	810	.	G	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaOXA-323_1_KF203097	814	.	A	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1

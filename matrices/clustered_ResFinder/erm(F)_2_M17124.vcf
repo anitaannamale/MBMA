@@ -1,0 +1,21 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/erm(F)_2_M17124.aln -c erm(F)_2_M17124 -R erm(F)_2_M17124 -o db_vcf/erm(F)_2_M17124.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=erm(F)_2_M17124,length=801>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	erm(F)_2_M17124	erm(F)_3_M17808	erm(F)_4_M62487
+erm(F)_2_M17124	22	.	G	C	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+erm(F)_2_M17124	162	.	C	T	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+erm(F)_2_M17124	359	.	G	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+erm(F)_2_M17124	365	.	G	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+erm(F)_2_M17124	396	.	A	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+erm(F)_2_M17124	399	.	A	C	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+erm(F)_2_M17124	423	.	G	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+erm(F)_2_M17124	525	.	C	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+erm(F)_2_M17124	577	.	T	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+erm(F)_2_M17124	608	.	A	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+erm(F)_2_M17124	679	.	T	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1

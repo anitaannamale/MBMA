@@ -1,0 +1,31 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/QnrB1_1_EF682133.aln -c QnrB1_1_EF682133 -R QnrB1_1_EF682133 -o db_vcf/QnrB1_1_EF682133.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=QnrB1_1_EF682133,length=681>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	QnrB17_1_JN173051	QnrB17_2_AM919398	QnrB1_1_EF682133	QnrB3_1_DQ303920	QnrB42_1_JN680743	QnrB66_1_KC580655	QnrB6_1_EF520349	QnrB6_3_EF523819
+QnrB1_1_EF682133	0	.	ATGACGCCATTACTGTATAAAAAAACAGGTACAAAT	.	.	.	DP=5	GT:DP	./.	0/0:1	0/0:1	0/0:1	./.	./.	0/0:1	0/0:1
+QnrB1_1_EF682133	47	.	C	T	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+QnrB1_1_EF682133	49	.	C	T	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+QnrB1_1_EF682133	51	.	C	A	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+QnrB1_1_EF682133	67	.	G	A	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+QnrB1_1_EF682133	76	.	C	T	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+QnrB1_1_EF682133	78	.	T	C	.	.	DP=8	GT:DP	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+QnrB1_1_EF682133	201	.	T	A	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+QnrB1_1_EF682133	271	.	T	G	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	1/1:1
+QnrB1_1_EF682133	357	.	G	A	.	.	DP=8	GT:DP	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+QnrB1_1_EF682133	462	.	A	G	.	.	DP=8	GT:DP	1/1:1	1/1:1	0/0:1	1/1:1	0/0:1	1/1:1	1/1:1	1/1:1
+QnrB1_1_EF682133	498	.	A	G	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+QnrB1_1_EF682133	507	.	C	A	.	.	DP=8	GT:DP	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+QnrB1_1_EF682133	543	.	A	G	.	.	DP=8	GT:DP	1/1:1	1/1:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	1/1:1
+QnrB1_1_EF682133	622	.	T	C	.	.	DP=8	GT:DP	1/1:1	1/1:1	0/0:1	1/1:1	0/0:1	1/1:1	1/1:1	1/1:1
+QnrB1_1_EF682133	639	.	A	G	.	.	DP=8	GT:DP	1/1:1	1/1:1	0/0:1	1/1:1	0/0:1	1/1:1	1/1:1	1/1:1
+QnrB1_1_EF682133	657	.	A	G	.	.	DP=8	GT:DP	1/1:1	1/1:1	0/0:1	1/1:1	0/0:1	1/1:1	1/1:1	1/1:1
+QnrB1_1_EF682133	668	.	CGG	CTA	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+QnrB1_1_EF682133	672	.	G	T	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+QnrB1_1_EF682133	678	.	T	C	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+QnrB1_1_EF682133	681	.	G	A	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1

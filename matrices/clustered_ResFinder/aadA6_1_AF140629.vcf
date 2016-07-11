@@ -1,0 +1,16 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/aadA6_1_AF140629.aln -c aadA6_1_AF140629 -R aadA6_1_AF140629 -o db_vcf/aadA6_1_AF140629.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=aadA6_1_AF140629,length=846>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	aadA11_1_AY144590	aadA6_1_AF140629
+aadA6_1_AF140629	170	.	G	A	.	.	DP=2	GT:DP	1/1:1	0/0:1
+aadA6_1_AF140629	243	.	A	G	.	.	DP=2	GT:DP	1/1:1	0/0:1
+aadA6_1_AF140629	639	.	G	T	.	.	DP=2	GT:DP	1/1:1	0/0:1
+aadA6_1_AF140629	784	.	A	G	.	.	DP=2	GT:DP	1/1:1	0/0:1
+aadA6_1_AF140629	823	.	ACG	AAC	.	.	DP=2	GT:DP	1/1:1	0/0:1
+aadA6_1_AF140629	836	.	GCG	GGT	.	.	DP=2	GT:DP	1/1:1	0/0:1

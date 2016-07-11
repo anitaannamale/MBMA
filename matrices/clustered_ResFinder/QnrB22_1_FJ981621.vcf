@@ -1,0 +1,20 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/QnrB22_1_FJ981621.aln -c QnrB22_1_FJ981621 -R QnrB22_1_FJ981621 -o db_vcf/QnrB22_1_FJ981621.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=QnrB22_1_FJ981621,length=648>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	QnrB22_1_FJ981621	QnrB65_1_KC580654
+QnrB22_1_FJ981621	0	.	ATG	.	.	.	DP=1	GT:DP	0/0:1	./.
+QnrB22_1_FJ981621	57	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+QnrB22_1_FJ981621	109	.	T	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+QnrB22_1_FJ981621	283	.	T	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+QnrB22_1_FJ981621	345	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+QnrB22_1_FJ981621	417	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+QnrB22_1_FJ981621	516	.	A	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+QnrB22_1_FJ981621	564	.	G	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+QnrB22_1_FJ981621	565	.	GTA	GGG	.	.	DP=2	GT:DP	0/0:1	1/1:1
+QnrB22_1_FJ981621	630	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1

@@ -1,0 +1,30 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/QnrB14_1_EU273757.aln -c QnrB14_1_EU273757 -R QnrB14_1_EU273757 -o db_vcf/QnrB14_1_EU273757.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=QnrB14_1_EU273757,length=681>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	QnrB14_1_EU273757	QnrB15_1_EU302865	QnrB18_1_AM919399	QnrB30_1_HM439650	QnrB58_1_JX259319
+QnrB14_1_EU273757	42	.	T	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+QnrB14_1_EU273757	54	.	C	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1
+QnrB14_1_EU273757	78	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+QnrB14_1_EU273757	99	.	T	A	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	1/1:1	0/0:1
+QnrB14_1_EU273757	101	.	A	G	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+QnrB14_1_EU273757	219	.	G	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+QnrB14_1_EU273757	241	.	T	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+QnrB14_1_EU273757	247	.	C	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1
+QnrB14_1_EU273757	275	.	G	A	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+QnrB14_1_EU273757	427	.	C	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+QnrB14_1_EU273757	582	.	G	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+QnrB14_1_EU273757	612	.	G	A	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1
+QnrB14_1_EU273757	622	.	T	C	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+QnrB14_1_EU273757	639	.	A	G	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+QnrB14_1_EU273757	650	.	C	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1
+QnrB14_1_EU273757	654	.	A	G	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	0/0:1	0/0:1
+QnrB14_1_EU273757	657	.	T	A,G	.	.	DP=5	GT:DP	0/0:1	2/2:1	1/1:1	0/0:1	0/0:1
+QnrB14_1_EU273757	670	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1
+QnrB14_1_EU273757	672	.	T	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1
+QnrB14_1_EU273757	678	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1

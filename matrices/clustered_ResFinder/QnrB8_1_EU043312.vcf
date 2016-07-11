@@ -1,0 +1,26 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/QnrB8_1_EU043312.aln -c QnrB8_1_EU043312 -R QnrB8_1_EU043312 -o db_vcf/QnrB8_1_EU043312.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=QnrB8_1_EU043312,length=645>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	QnrB21_1_FJ611948	QnrB25_1_HQ172108	QnrB35_1_JN173057	QnrB38_1_JN173060	QnrB60_1_AB734055	QnrB8_1_EU043312
+QnrB8_1_EU043312	4	.	A	G	.	.	DP=6	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1	0/0:1
+QnrB8_1_EU043312	12	.	A	G	.	.	DP=6	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+QnrB8_1_EU043312	16	.	G	A	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	1/1:1	0/0:1
+QnrB8_1_EU043312	53	.	A	C	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+QnrB8_1_EU043312	96	.	T	C	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+QnrB8_1_EU043312	234	.	C	T	.	.	DP=6	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+QnrB8_1_EU043312	270	.	C	A	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+QnrB8_1_EU043312	353	.	A	G	.	.	DP=6	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+QnrB8_1_EU043312	369	.	C	T	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+QnrB8_1_EU043312	436	.	G	A	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+QnrB8_1_EU043312	438	.	A	G	.	.	DP=6	GT:DP	0/0:1	1/1:1	1/1:1	0/0:1	1/1:1	0/0:1
+QnrB8_1_EU043312	593	.	A	G	.	.	DP=6	GT:DP	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	0/0:1
+QnrB8_1_EU043312	604	.	GCA	GCG,GTA	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	2/2:1	0/0:1
+QnrB8_1_EU043312	634	.	G	A	.	.	DP=6	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+QnrB8_1_EU043312	636	.	G	C	.	.	DP=6	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1	0/0:1
+QnrB8_1_EU043312	645	.	G	A	.	.	DP=6	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1	0/0:1

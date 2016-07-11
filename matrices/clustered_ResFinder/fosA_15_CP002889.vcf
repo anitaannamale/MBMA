@@ -1,0 +1,15 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/fosA_15_CP002889.aln -c fosA_15_CP002889 -R fosA_15_CP002889 -o db_vcf/fosA_15_CP002889.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=fosA_15_CP002889,length=582>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	fosA_13_EU487198	fosA_15_CP002889
+fosA_15_CP002889	0	.	GTGAAAGCCGCCTTTCGGCGGCTATCTGAAAATGGGGAAAACTACTCCGTGCCGCCTTTAAGAAGGCAGCCACCAGCGGTTTACGGTGAGCACGGCGTGGTTTATGTTCATGAAGTTACCGTACCACGTCTGGCGCAAAAAACAAAAGGGCACGTC	.	.	.	DP=1	GT:DP	./.	0/0:1
+fosA_15_CP002889	229	.	T	C	.	.	DP=2	GT:DP	1/1:1	0/0:1
+fosA_15_CP002889	417	.	A	G	.	.	DP=2	GT:DP	1/1:1	0/0:1
+fosA_15_CP002889	438	.	G	A	.	.	DP=2	GT:DP	1/1:1	0/0:1
+fosA_15_CP002889	480	.	T	C	.	.	DP=2	GT:DP	1/1:1	0/0:1

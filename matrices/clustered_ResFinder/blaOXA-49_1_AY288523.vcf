@@ -1,0 +1,25 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaOXA-49_1_AY288523.aln -c blaOXA-49_1_AY288523 -R blaOXA-49_1_AY288523 -o db_vcf/blaOXA-49_1_AY288523.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaOXA-49_1_AY288523,length=825>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaOXA-146_1_FJ194460	blaOXA-165_1_HM488986	blaOXA-166_1_HM488987	blaOXA-167_1_HM488988	blaOXA-168_1_HM488989	blaOXA-169_1_HM488990	blaOXA-170_1_HM488991	blaOXA-171_1_HM488992	blaOXA-225_1_JN638887	blaOXA-239_1_JQ837239	blaOXA-23_1_HQ700358	blaOXA-27_1_AF201828	blaOXA-49_1_AY288523	blaOXA-73_1_AY762325
+blaOXA-49_1_AY288523	140	.	A	G	.	.	DP=14	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-49_1_AY288523	155	.	T	C	.	.	DP=14	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-49_1_AY288523	162	.	T	C	.	.	DP=14	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaOXA-49_1_AY288523	283	.	A	G	.	.	DP=14	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaOXA-49_1_AY288523	326	.	C	T	.	.	DP=14	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-49_1_AY288523	442	.	G	A	.	.	DP=14	GT:DP	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	0/0:1	1/1:1
+blaOXA-49_1_AY288523	619	.	G	A	.	.	DP=14	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-49_1_AY288523	656	.	GGGC	G	.	.	DP=14	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	0/0:1	1/1:1
+blaOXA-49_1_AY288523	667	.	G	A	.	.	DP=14	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-49_1_AY288523	670	.	A	G	.	.	DP=14	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-49_1_AY288523	676	.	C	T	.	.	DP=14	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-49_1_AY288523	694	.	A	G	.	.	DP=14	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-49_1_AY288523	744	.	T	A	.	.	DP=14	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	1/1:1
+blaOXA-49_1_AY288523	776	.	T	C	.	.	DP=14	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-49_1_AY288523	790	.	T	A	.	.	DP=14	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1

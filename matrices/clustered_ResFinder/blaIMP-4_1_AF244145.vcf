@@ -1,0 +1,13 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaIMP-4_1_AF244145.aln -c blaIMP-4_1_AF244145 -R blaIMP-4_1_AF244145 -o db_vcf/blaIMP-4_1_AF244145.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaIMP-4_1_AF244145,length=741>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaIMP-26_1_GU045307	blaIMP-38_1_HQ875573	blaIMP-4_1_AF244145	blaIMP-4_1_DQ307573
+blaIMP-4_1_AF244145	145	.	G	T	.	.	DP=4	GT:DP	1/1:1	0/0:1	0/0:1	1/1:1
+blaIMP-4_1_AF244145	640	.	A	G	.	.	DP=4	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1
+blaIMP-4_1_AF244145	738	.	C	T	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1

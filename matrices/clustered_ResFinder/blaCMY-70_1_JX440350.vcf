@@ -1,0 +1,29 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaCMY-70_1_JX440350.aln -c blaCMY-70_1_JX440350 -R blaCMY-70_1_JX440350 -o db_vcf/blaCMY-70_1_JX440350.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaCMY-70_1_JX440350,length=1146>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaCMY-70_1_JX440350	blaCMY-74_1_JX440349	blaCMY-83_1_JX440351
+blaCMY-70_1_JX440350	45	.	T	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaCMY-70_1_JX440350	66	.	A	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaCMY-70_1_JX440350	132	.	A	T	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaCMY-70_1_JX440350	141	.	T	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaCMY-70_1_JX440350	225	.	G	T	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+blaCMY-70_1_JX440350	273	.	T	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+blaCMY-70_1_JX440350	294	.	A	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+blaCMY-70_1_JX440350	333	.	G	T	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+blaCMY-70_1_JX440350	546	.	A	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+blaCMY-70_1_JX440350	552	.	A	C	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaCMY-70_1_JX440350	583	.	T	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+blaCMY-70_1_JX440350	599	.	A	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaCMY-70_1_JX440350	702	.	C	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaCMY-70_1_JX440350	720	.	A	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+blaCMY-70_1_JX440350	844	.	A	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaCMY-70_1_JX440350	897	.	G	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaCMY-70_1_JX440350	936	.	A	C	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaCMY-70_1_JX440350	1083	.	C	T	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaCMY-70_1_JX440350	1113	.	G	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1

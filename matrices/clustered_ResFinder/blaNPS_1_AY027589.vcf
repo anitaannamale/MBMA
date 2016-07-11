@@ -1,0 +1,25 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaNPS_1_AY027589.aln -c blaNPS_1_AY027589 -R blaNPS_1_AY027589 -o db_vcf/blaNPS_1_AY027589.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaNPS_1_AY027589,length=783>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaLCR-1_1_X56809	blaNPS_1_AY027589
+blaNPS_1_AY027589	6	.	G	A	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaNPS_1_AY027589	39	.	C	T	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaNPS_1_AY027589	42	.	A	G	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaNPS_1_AY027589	76	.	C	A	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaNPS_1_AY027589	86	.	A	T	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaNPS_1_AY027589	96	.	A	G	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaNPS_1_AY027589	133	.	A	G	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaNPS_1_AY027589	503	.	G	A	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaNPS_1_AY027589	531	.	A	G	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaNPS_1_AY027589	606	.	G	A	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaNPS_1_AY027589	624	.	C	G	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaNPS_1_AY027589	664	.	C	A	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaNPS_1_AY027589	711	.	A	G	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaNPS_1_AY027589	773	.	A	C	.	.	DP=2	GT:DP	1/1:1	0/0:1
+blaNPS_1_AY027589	775	.	G	A	.	.	DP=2	GT:DP	1/1:1	0/0:1

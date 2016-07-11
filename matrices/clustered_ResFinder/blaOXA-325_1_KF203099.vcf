@@ -1,0 +1,30 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaOXA-325_1_KF203099.aln -c blaOXA-325_1_KF203099 -R blaOXA-325_1_KF203099 -o db_vcf/blaOXA-325_1_KF203099.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaOXA-325_1_KF203099,length=822>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaOXA-325_1_KF203099	blaOXA-326_1_KF203100	blaOXA-352_1_KF297581
+blaOXA-325_1_KF203099	16	.	C	T	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaOXA-325_1_KF203099	36	.	T	C	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOXA-325_1_KF203099	86	.	ATA	ACT,ATT	.	.	DP=3	GT:DP	0/0:1	1/1:1	2/2:1
+blaOXA-325_1_KF203099	116	.	A	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaOXA-325_1_KF203099	129	.	T	A,G	.	.	DP=3	GT:DP	0/0:1	2/2:1	1/1:1
+blaOXA-325_1_KF203099	138	.	A	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaOXA-325_1_KF203099	153	.	A	T	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+blaOXA-325_1_KF203099	219	.	C	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaOXA-325_1_KF203099	226	.	A	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaOXA-325_1_KF203099	284	.	C	T	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaOXA-325_1_KF203099	384	.	C	T	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaOXA-325_1_KF203099	411	.	A	T	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOXA-325_1_KF203099	564	.	T	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOXA-325_1_KF203099	631	.	C	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaOXA-325_1_KF203099	645	.	C	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOXA-325_1_KF203099	651	.	T	C	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOXA-325_1_KF203099	667	.	G	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOXA-325_1_KF203099	669	.	G	T	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOXA-325_1_KF203099	672	.	A	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOXA-325_1_KF203099	726	.	C	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1

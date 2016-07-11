@@ -1,0 +1,12 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaOXA-235_1_JQ820240.aln -c blaOXA-235_1_JQ820240 -R blaOXA-235_1_JQ820240 -o db_vcf/blaOXA-235_1_JQ820240.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaOXA-235_1_JQ820240,length=831>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaOXA-235_1_JQ820240	blaOXA-236_1_JQ820242	blaOXA-237_1_JQ820241
+blaOXA-235_1_JQ820240	518	.	A	T	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaOXA-235_1_JQ820240	623	.	A	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1

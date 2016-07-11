@@ -1,0 +1,26 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaMOX-2_1_AJ276453.aln -c blaMOX-2_1_AJ276453 -R blaMOX-2_1_AJ276453 -o db_vcf/blaMOX-2_1_AJ276453.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaMOX-2_1_AJ276453,length=1149>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaMOX-2_1_AJ276453	blaMOX-3_1_EU515248	blaMOX-4_1_FJ262599
+blaMOX-2_1_AJ276453	30	.	C	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaMOX-2_1_AJ276453	32	.	CTC	CTT,CCG	.	.	DP=3	GT:DP	0/0:1	2/2:1	1/1:1
+blaMOX-2_1_AJ276453	63	.	C	T	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaMOX-2_1_AJ276453	69	.	A	C	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaMOX-2_1_AJ276453	75	.	G	C	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaMOX-2_1_AJ276453	82	.	C	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaMOX-2_1_AJ276453	122	.	G	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaMOX-2_1_AJ276453	225	.	A	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaMOX-2_1_AJ276453	568	.	A	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaMOX-2_1_AJ276453	747	.	G	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaMOX-2_1_AJ276453	799	.	C	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	1/1:1
+blaMOX-2_1_AJ276453	886	.	A	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaMOX-2_1_AJ276453	937	.	A	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaMOX-2_1_AJ276453	945	.	C	T	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaMOX-2_1_AJ276453	986	.	G	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaMOX-2_1_AJ276453	989	.	A	T	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1

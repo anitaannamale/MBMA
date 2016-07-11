@@ -1,0 +1,13 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/QnrS1_1_AB187515.aln -c QnrS1_1_AB187515 -R QnrS1_1_AB187515 -o db_vcf/QnrS1_1_AB187515.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=QnrS1_1_AB187515,length=657>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	QnrS1_1_AB187515	QnrS3_1_EU077611	QnrS4_1_FJ418153
+QnrS1_1_AB187515	1	.	A	N	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+QnrS1_1_AB187515	32	.	A	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+QnrS1_1_AB187515	182	.	T	C	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1

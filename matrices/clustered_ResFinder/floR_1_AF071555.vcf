@@ -1,0 +1,12 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/floR_1_AF071555.aln -c floR_1_AF071555 -R floR_1_AF071555 -o db_vcf/floR_1_AF071555.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=floR_1_AF071555,length=1215>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	floR_1_AF071555	floR_2_AF118107
+floR_1_AF071555	198	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+floR_1_AF071555	818	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1

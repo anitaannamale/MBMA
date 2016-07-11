@@ -1,0 +1,29 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaOXA-50_1_AY306135.aln -c blaOXA-50_1_AY306135 -R blaOXA-50_1_AY306135 -o db_vcf/blaOXA-50_1_AY306135.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaOXA-50_1_AY306135,length=789>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaOXA-50_1_AY306135	blaOXA-50_2_AY306133	blaOXA-50_3_AY306130	blaOXA-50_3_AY306132
+blaOXA-50_1_AY306135	18	.	G	C	.	.	DP=4	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1
+blaOXA-50_1_AY306135	21	.	T	C	.	.	DP=4	GT:DP	0/0:1	1/1:1	0/0:1	1/1:1
+blaOXA-50_1_AY306135	36	.	T	C	.	.	DP=4	GT:DP	0/0:1	1/1:1	0/0:1	1/1:1
+blaOXA-50_1_AY306135	46	.	A	G	.	.	DP=4	GT:DP	0/0:1	1/1:1	0/0:1	1/1:1
+blaOXA-50_1_AY306135	74	.	A	G	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+blaOXA-50_1_AY306135	96	.	C	A	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+blaOXA-50_1_AY306135	105	.	G	T	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+blaOXA-50_1_AY306135	126	.	C	T	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+blaOXA-50_1_AY306135	153	.	C	T	.	.	DP=4	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-50_1_AY306135	180	.	C	T	.	.	DP=4	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1
+blaOXA-50_1_AY306135	192	.	C	T	.	.	DP=4	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1
+blaOXA-50_1_AY306135	195	.	T	C	.	.	DP=4	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1
+blaOXA-50_1_AY306135	225	.	C	T	.	.	DP=4	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1
+blaOXA-50_1_AY306135	248	.	G	A	.	.	DP=4	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1
+blaOXA-50_1_AY306135	282	.	G	A	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+blaOXA-50_1_AY306135	327	.	G	C	.	.	DP=4	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1
+blaOXA-50_1_AY306135	372	.	G	A	.	.	DP=4	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1
+blaOXA-50_1_AY306135	492	.	A	G	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+blaOXA-50_1_AY306135	500	.	A	G	.	.	DP=4	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1

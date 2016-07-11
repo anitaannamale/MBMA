@@ -1,0 +1,16 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/aph(3 )-Ia_1_V00359.aln -c aph(3 )-Ia_1_V00359 -R aph(3 )-Ia_1_V00359 -o db_vcf/aph(3 )-Ia_1_V00359.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=aph(3')-Ia_1_V00359,length=816>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	aph(3')-Ia_1_V00359	aph(3')-Ic_1_X62115
+aph(3')-Ia_1_V00359	55	.	A	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+aph(3')-Ia_1_V00359	80	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+aph(3')-Ia_1_V00359	142	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+aph(3')-Ia_1_V00359	230	.	A	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+aph(3')-Ia_1_V00359	489	.	G	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+aph(3')-Ia_1_V00359	815	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1

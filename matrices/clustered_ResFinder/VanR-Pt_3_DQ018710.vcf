@@ -1,0 +1,17 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/VanR-Pt_3_DQ018710.aln -c VanR-Pt_3_DQ018710 -R VanR-Pt_3_DQ018710 -o db_vcf/VanR-Pt_3_DQ018710.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=VanR-Pt_3_DQ018710,length=696>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	VanR-Pt_3_DQ018710	VanR-Pt_5_DQ018711
+VanR-Pt_3_DQ018710	201	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+VanR-Pt_3_DQ018710	233	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+VanR-Pt_3_DQ018710	307	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+VanR-Pt_3_DQ018710	334	.	A	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+VanR-Pt_3_DQ018710	371	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+VanR-Pt_3_DQ018710	379	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+VanR-Pt_3_DQ018710	468	.	A	C	.	.	DP=2	GT:DP	0/0:1	1/1:1

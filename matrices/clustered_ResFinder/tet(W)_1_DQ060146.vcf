@@ -1,0 +1,31 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/tet(W)_1_DQ060146.aln -c tet(W)_1_DQ060146 -R tet(W)_1_DQ060146 -o db_vcf/tet(W)_1_DQ060146.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=tet(W)_1_DQ060146,length=1920>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	tet(W)_1_DQ060146	tet(W)_4_AJ427422	tet(W)_5_AJ427421	tet(W)_6_FN396364
+tet(W)_1_DQ060146	645	.	A	G	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+tet(W)_1_DQ060146	652	.	C	T	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+tet(W)_1_DQ060146	1045	.	G	A	.	.	DP=4	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1
+tet(W)_1_DQ060146	1249	.	T	A	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+tet(W)_1_DQ060146	1269	.	G	A	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+tet(W)_1_DQ060146	1335	.	A	C	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+tet(W)_1_DQ060146	1357	.	T	C	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+tet(W)_1_DQ060146	1593	.	G	A	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+tet(W)_1_DQ060146	1602	.	G	A	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+tet(W)_1_DQ060146	1628	.	T	C	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+tet(W)_1_DQ060146	1643	.	A	G	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+tet(W)_1_DQ060146	1650	.	C	T	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+tet(W)_1_DQ060146	1703	.	C	T	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+tet(W)_1_DQ060146	1728	.	C	T	.	.	DP=4	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1
+tet(W)_1_DQ060146	1799	.	G	A	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+tet(W)_1_DQ060146	1818	.	G	A	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+tet(W)_1_DQ060146	1827	.	A	G	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+tet(W)_1_DQ060146	1844	.	GTC	GCA	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+tet(W)_1_DQ060146	1851	.	G	A	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+tet(W)_1_DQ060146	1897	.	C	T	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+tet(W)_1_DQ060146	1912	.	G	A	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1

@@ -1,0 +1,15 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/strA_1_M96392.aln -c strA_1_M96392 -R strA_1_M96392 -o db_vcf/strA_1_M96392.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=strA_1_M96392,length=804>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	strA_1_M96392	strA_2_M28829	strA_3_AF024602	strA_4_AF321551	strA_5_AF321550
+strA_1_M96392	1	.	T	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+strA_1_M96392	80	.	T	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+strA_1_M96392	204	.	G	C	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	1/1:1	0/0:1
+strA_1_M96392	467	.	A	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+strA_1_M96392	470	.	T	A	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1

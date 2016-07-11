@@ -1,0 +1,35 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaCMY-63_1_HQ650104.aln -c blaCMY-63_1_HQ650104 -R blaCMY-63_1_HQ650104 -o db_vcf/blaCMY-63_1_HQ650104.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaCMY-63_1_HQ650104,length=1146>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaCMY-63_1_HQ650104	blaCMY-64_1_HQ832678	blaCMY-71_1_JQ711184	blaCMY-77_1_JX440353	blaCMY-80_1_JQ733577
+blaCMY-63_1_HQ650104	43	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1
+blaCMY-63_1_HQ650104	45	.	A	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	0/0:1
+blaCMY-63_1_HQ650104	48	.	C	A	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	1/1:1	0/0:1
+blaCMY-63_1_HQ650104	63	.	C	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaCMY-63_1_HQ650104	77	.	A	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaCMY-63_1_HQ650104	92	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaCMY-63_1_HQ650104	146	.	CCG	CTG,CTA	.	.	DP=5	GT:DP	0/0:1	2/2:1	0/0:1	1/1:1	0/0:1
+blaCMY-63_1_HQ650104	172	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaCMY-63_1_HQ650104	502	.	A	C	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1
+blaCMY-63_1_HQ650104	504	.	A	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1
+blaCMY-63_1_HQ650104	561	.	T	A	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1
+blaCMY-63_1_HQ650104	567	.	C	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1
+blaCMY-63_1_HQ650104	629	.	C	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaCMY-63_1_HQ650104	639	.	G	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaCMY-63_1_HQ650104	641	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaCMY-63_1_HQ650104	682	.	G	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaCMY-63_1_HQ650104	711	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaCMY-63_1_HQ650104	738	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	1/1:1
+blaCMY-63_1_HQ650104	792	.	G	A	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaCMY-63_1_HQ650104	849	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaCMY-63_1_HQ650104	870	.	C	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaCMY-63_1_HQ650104	906	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	1/1:1
+blaCMY-63_1_HQ650104	972	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	1/1:1
+blaCMY-63_1_HQ650104	1059	.	A	C	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	1/1:1	1/1:1
+blaCMY-63_1_HQ650104	1125	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1

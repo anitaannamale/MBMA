@@ -1,0 +1,41 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaOCH-4_1_AJ295342.aln -c blaOCH-4_1_AJ295342 -R blaOCH-4_1_AJ295342 -o db_vcf/blaOCH-4_1_AJ295342.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaOCH-4_1_AJ295342,length=1173>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaOCH-4_1_AJ295342	blaOCH-5_1_AJ295343	blaOCH-6_1_AJ295344	blaOCH-7_1_AJ295345	blaOCH-8_1_DQ489307
+blaOCH-4_1_AJ295342	61	.	AAT	AGC,AAC	.	.	DP=5	GT:DP	0/0:1	2/2:1	0/0:1	1/1:1	0/0:1
+blaOCH-4_1_AJ295342	76	.	A	G	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	0/0:1
+blaOCH-4_1_AJ295342	86	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOCH-4_1_AJ295342	165	.	C	G	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	1/1:1	1/1:1
+blaOCH-4_1_AJ295342	168	.	C	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	1/1:1	1/1:1
+blaOCH-4_1_AJ295342	171	.	T	C	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	1/1:1	1/1:1
+blaOCH-4_1_AJ295342	222	.	A	G	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaOCH-4_1_AJ295342	267	.	T	C	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaOCH-4_1_AJ295342	303	.	T	C	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaOCH-4_1_AJ295342	318	.	A	G	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaOCH-4_1_AJ295342	398	.	G	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	1/1:1
+blaOCH-4_1_AJ295342	493	.	AAG	AGG,AAA	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	2/2:1
+blaOCH-4_1_AJ295342	498	.	G	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaOCH-4_1_AJ295342	501	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaOCH-4_1_AJ295342	513	.	C	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	1/1:1
+blaOCH-4_1_AJ295342	521	.	G	A	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaOCH-4_1_AJ295342	525	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaOCH-4_1_AJ295342	656	.	C	A	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	0/0:1	1/1:1
+blaOCH-4_1_AJ295342	684	.	A	C	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1
+blaOCH-4_1_AJ295342	724	.	G	A	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaOCH-4_1_AJ295342	795	.	C	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaOCH-4_1_AJ295342	843	.	G	A	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaOCH-4_1_AJ295342	846	.	T	C	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaOCH-4_1_AJ295342	849	.	C	G	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaOCH-4_1_AJ295342	865	.	GGA	GAT	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaOCH-4_1_AJ295342	1011	.	GCT	GTG	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1
+blaOCH-4_1_AJ295342	1015	.	A	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1
+blaOCH-4_1_AJ295342	1020	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1
+blaOCH-4_1_AJ295342	1079	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1
+blaOCH-4_1_AJ295342	1090	.	C	G	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaOCH-4_1_AJ295342	1101	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1

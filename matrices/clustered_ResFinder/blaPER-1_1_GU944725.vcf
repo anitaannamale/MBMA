@@ -1,0 +1,22 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaPER-1_1_GU944725.aln -c blaPER-1_1_GU944725 -R blaPER-1_1_GU944725 -o db_vcf/blaPER-1_1_GU944725.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaPER-1_1_GU944725,length=927>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaPER-1_1_GU944725	blaPER-3_1_AY740681	blaPER-4_1_EU748544	blaPER-5_1_FJ627180	blaPER-7_1_HQ713678
+blaPER-1_1_GU944725	98	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaPER-1_1_GU944725	355	.	G	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaPER-1_1_GU944725	401	.	A	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaPER-1_1_GU944725	404	.	G	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaPER-1_1_GU944725	567	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaPER-1_1_GU944725	570	.	T	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaPER-1_1_GU944725	573	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaPER-1_1_GU944725	733	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaPER-1_1_GU944725	737	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaPER-1_1_GU944725	744	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaPER-1_1_GU944725	877	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaPER-1_1_GU944725	926	.	AA	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1

@@ -1,0 +1,30 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaDHA-1_1_Y16410.aln -c blaDHA-1_1_Y16410 -R blaDHA-1_1_Y16410 -o db_vcf/blaDHA-1_1_Y16410.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaDHA-1_1_Y16410,length=1140>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaDHA-1_1_Y16410	blaDHA-3_1_AY494945	blaDHA-5_1_JF273491	blaDHA-6_1_HQ322612	blaDHA-7_1_HQ456945
+blaDHA-1_1_Y16410	129	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaDHA-1_1_Y16410	156	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaDHA-1_1_Y16410	165	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaDHA-1_1_Y16410	167	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaDHA-1_1_Y16410	186	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaDHA-1_1_Y16410	199	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaDHA-1_1_Y16410	454	.	A	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaDHA-1_1_Y16410	456	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaDHA-1_1_Y16410	519	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaDHA-1_1_Y16410	636	.	A	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaDHA-1_1_Y16410	696	.	G	A	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaDHA-1_1_Y16410	733	.	G	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaDHA-1_1_Y16410	771	.	G	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaDHA-1_1_Y16410	831	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaDHA-1_1_Y16410	855	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaDHA-1_1_Y16410	915	.	T	C	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	0/0:1	0/0:1
+blaDHA-1_1_Y16410	945	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaDHA-1_1_Y16410	1005	.	C	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaDHA-1_1_Y16410	1019	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaDHA-1_1_Y16410	1032	.	C	G	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	0/0:1	0/0:1

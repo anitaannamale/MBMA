@@ -1,0 +1,14 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/dfrA14_1_DQ388123.aln -c dfrA14_1_DQ388123 -R dfrA14_1_DQ388123 -o db_vcf/dfrA14_1_DQ388123.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=dfrA14_1_DQ388123,length=483>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	dfrA14_1_DQ388123	dfrA14_1_Z50805
+dfrA14_1_DQ388123	0	.	ATGAGAACC	.	.	.	DP=1	GT:DP	0/0:1	./.
+dfrA14_1_DQ388123	73	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+dfrA14_1_DQ388123	75	.	C	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+dfrA14_1_DQ388123	129	.	G	T	.	.	DP=2	GT:DP	0/0:1	1/1:1

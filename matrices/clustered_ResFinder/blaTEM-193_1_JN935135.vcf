@@ -1,0 +1,20 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaTEM-193_1_JN935135.aln -c blaTEM-193_1_JN935135 -R blaTEM-193_1_JN935135 -o db_vcf/blaTEM-193_1_JN935135.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaTEM-193_1_JN935135,length=861>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaTEM-193_1_JN935135	blaTEM-195_1_JN935137
+blaTEM-193_1_JN935135	290	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaTEM-193_1_JN935135	400	.	C	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaTEM-193_1_JN935135	406	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaTEM-193_1_JN935135	491	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaTEM-193_1_JN935135	496	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaTEM-193_1_JN935135	503	.	C	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaTEM-193_1_JN935135	507	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaTEM-193_1_JN935135	546	.	A	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaTEM-193_1_JN935135	557	.	A	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaTEM-193_1_JN935135	652	.	A	C	.	.	DP=2	GT:DP	0/0:1	1/1:1

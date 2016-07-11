@@ -1,0 +1,21 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaCTX-M-5_8_AJ005045.aln -c blaCTX-M-5_8_AJ005045 -R blaCTX-M-5_8_AJ005045 -o db_vcf/blaCTX-M-5_8_AJ005045.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaCTX-M-5_8_AJ005045,length=876>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaCTX-M-5_8_AJ005045	blaCTX-M-6_1_AJ005044
+blaCTX-M-5_8_AJ005045	190	.	G	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaCTX-M-5_8_AJ005045	301	.	AGA	AAG	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaCTX-M-5_8_AJ005045	306	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaCTX-M-5_8_AJ005045	330	.	G	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaCTX-M-5_8_AJ005045	370	.	C	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaCTX-M-5_8_AJ005045	381	.	C	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaCTX-M-5_8_AJ005045	465	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaCTX-M-5_8_AJ005045	471	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaCTX-M-5_8_AJ005045	597	.	C	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaCTX-M-5_8_AJ005045	691	.	TCA	TGT	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaCTX-M-5_8_AJ005045	698	.	G	T	.	.	DP=2	GT:DP	0/0:1	1/1:1

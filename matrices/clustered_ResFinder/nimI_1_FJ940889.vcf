@@ -1,0 +1,28 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/nimI_1_FJ940889.aln -c nimI_1_FJ940889 -R nimI_1_FJ940889 -o db_vcf/nimI_1_FJ940889.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=nimI_1_FJ940889,length=463>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	nimI_1_FJ940883	nimI_1_FJ940884	nimI_1_FJ940886	nimI_1_FJ940887	nimI_1_FJ940889
+nimI_1_FJ940889	45	.	G	A	.	.	DP=5	GT:DP	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+nimI_1_FJ940889	49	.	T	A	.	.	DP=5	GT:DP	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+nimI_1_FJ940889	123	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+nimI_1_FJ940889	132	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+nimI_1_FJ940889	138	.	C	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+nimI_1_FJ940889	141	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+nimI_1_FJ940889	168	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+nimI_1_FJ940889	201	.	A	G	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+nimI_1_FJ940889	207	.	C	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+nimI_1_FJ940889	265	.	A	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+nimI_1_FJ940889	283	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1
+nimI_1_FJ940889	319	.	A	G	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	0/0:1
+nimI_1_FJ940889	394	.	C	T	.	.	DP=5	GT:DP	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+nimI_1_FJ940889	409	.	A	G	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+nimI_1_FJ940889	418	.	C	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+nimI_1_FJ940889	429	.	T	C	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+nimI_1_FJ940889	432	.	C	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+nimI_1_FJ940889	457	.	GAAGCAC	G	.	.	DP=5	GT:DP	1/1:1	1/1:1	1/1:1	1/1:1	0/0:1

@@ -1,0 +1,13 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/VanH-Ao1_8_AF060799.aln -c VanH-Ao1_8_AF060799 -R VanH-Ao1_8_AF060799 -o db_vcf/VanH-Ao1_8_AF060799.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=VanH-Ao1_8_AF060799,length=1047>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	VanH-Ao1_8_AF060799	VanH-Ao2_9_HQ679900
+VanH-Ao1_8_AF060799	164	.	A	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+VanH-Ao1_8_AF060799	1016	.	TC	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+VanH-Ao1_8_AF060799	1033	.	GTATGGGTAGGCTGA	G	.	.	DP=2	GT:DP	0/0:1	1/1:1

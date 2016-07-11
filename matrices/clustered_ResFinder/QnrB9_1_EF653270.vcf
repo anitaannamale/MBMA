@@ -1,0 +1,19 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/QnrB9_1_EF653270.aln -c QnrB9_1_EF653270 -R QnrB9_1_EF653270 -o db_vcf/QnrB9_1_EF653270.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=QnrB9_1_EF653270,length=648>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	QnrB12_2_AM774474	QnrB34_1_JN173056	QnrB9_1_EF653270
+QnrB9_1_EF653270	15	.	G	A	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+QnrB9_1_EF653270	99	.	C	T	.	.	DP=3	GT:DP	1/1:1	1/1:1	0/0:1
+QnrB9_1_EF653270	114	.	C	T	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+QnrB9_1_EF653270	132	.	C	T	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+QnrB9_1_EF653270	150	.	A	G	.	.	DP=3	GT:DP	1/1:1	1/1:1	0/0:1
+QnrB9_1_EF653270	227	.	A	G	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+QnrB9_1_EF653270	465	.	G	A	.	.	DP=3	GT:DP	1/1:1	1/1:1	0/0:1
+QnrB9_1_EF653270	630	.	T	C	.	.	DP=3	GT:DP	1/1:1	1/1:1	0/0:1
+QnrB9_1_EF653270	642	.	G	T	.	.	DP=3	GT:DP	1/1:1	1/1:1	0/0:1

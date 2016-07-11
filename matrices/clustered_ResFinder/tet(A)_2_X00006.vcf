@@ -1,0 +1,22 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/tet(A)_2_X00006.aln -c tet(A)_2_X00006 -R tet(A)_2_X00006 -o db_vcf/tet(A)_2_X00006.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=tet(A)_2_X00006,length=1201>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	tet(A)_2_X00006	tet(A)_3_AY196695	tet(A)_4_AJ517790	tet(A)_5_AJ419171	tet(A)_6_AJ313332
+tet(A)_2_X00006	14	.	T	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	1/1:1
+tet(A)_2_X00006	163	.	G	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	1/1:1
+tet(A)_2_X00006	221	.	CAA	CGG	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	1/1:1
+tet(A)_2_X00006	248	.	CCA	CTG	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	1/1:1
+tet(A)_2_X00006	276	.	A	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	1/1:1
+tet(A)_2_X00006	482	.	C	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+tet(A)_2_X00006	556	.	AAA	ATT	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+tet(A)_2_X00006	600	.	CA	C	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1
+tet(A)_2_X00006	609	.	T	TC	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1
+tet(A)_2_X00006	886	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+tet(A)_2_X00006	970	.	G	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+tet(A)_2_X00006	997	.	C	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1

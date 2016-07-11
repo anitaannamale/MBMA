@@ -1,0 +1,24 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaCARB-2_1_M69058.aln -c blaCARB-2_1_M69058 -R blaCARB-2_1_M69058 -o db_vcf/blaCARB-2_1_M69058.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaCARB-2_1_M69058,length=915>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaCARB-11_1_AY008290	blaCARB-12_1_D13210	blaCARB-1_1_AF313471	blaCARB-2_1_M69058	blaCARB-3_1_S46063
+blaCARB-2_1_M69058	0	.	ATGCTTTTATATAAAATGTGTGACAATCAAAATTATGGGGTTACTTAC	.	.	.	DP=2	GT:DP	./.	./.	./.	0/0:1	0/0:1
+blaCARB-2_1_M69058	65	.	C	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaCARB-2_1_M69058	116	.	A	G	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaCARB-2_1_M69058	204	.	T	C	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaCARB-2_1_M69058	237	.	A	G	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaCARB-2_1_M69058	304	.	C	T	.	.	DP=5	GT:DP	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaCARB-2_1_M69058	466	.	C	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaCARB-2_1_M69058	610	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaCARB-2_1_M69058	624	.	C	A	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaCARB-2_1_M69058	643	.	C	A	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaCARB-2_1_M69058	645	.	G	A	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaCARB-2_1_M69058	735	.	C	T	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaCARB-2_1_M69058	845	.	C	A	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaCARB-2_1_M69058	878	.	A	G	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1

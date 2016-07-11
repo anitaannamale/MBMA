@@ -1,0 +1,20 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaOXA-10_1_HM175875.aln -c blaOXA-10_1_HM175875 -R blaOXA-10_1_HM175875 -o db_vcf/blaOXA-10_1_HM175875.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaOXA-10_1_HM175875,length=801>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaOXA-10_1_HM175875	blaOXA-10_2_EU886981	blaOXA-11_1_Z22590	blaOXA-142_1_EU358785	blaOXA-14_1_L38523	blaOXA-16_1_AF043100	blaOXA-17_1_AF060206	blaOXA-17_2_DQ902344	blaOXA-240_1_JX089628	blaOXA-251_1_JN118546	blaOXA-256_1_HE616889	blaOXA-74_1_EU161636
+blaOXA-10_1_HM175875	0	.	ATGAAAACATTTGCCGCATATGTAAT	.	.	.	DP=9	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	./.	./.	./.	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-10_1_HM175875	197	.	C	T	.	.	DP=12	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaOXA-10_1_HM175875	216	.	CAA	CGA,CAG	.	.	DP=12	GT:DP	0/0:1	0/0:1	0/0:1	2/2:1	0/0:1	0/0:1	2/2:1	2/2:1	0/0:1	0/0:1	1/1:1	2/2:1
+blaOXA-10_1_HM175875	300	.	G	T	.	.	DP=12	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaOXA-10_1_HM175875	370	.	G	A	.	.	DP=12	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-10_1_HM175875	383	.	G	A	.	.	DP=12	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaOXA-10_1_HM175875	414	.	C	A	.	.	DP=12	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	0/0:1	1/1:1	1/1:1
+blaOXA-10_1_HM175875	428	.	A	G	.	.	DP=12	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-10_1_HM175875	470	.	G	A	.	.	DP=12	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-10_1_HM175875	560	.	T	C	.	.	DP=12	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1

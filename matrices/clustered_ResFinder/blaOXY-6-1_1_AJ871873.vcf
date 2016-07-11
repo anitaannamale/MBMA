@@ -1,0 +1,16 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaOXY-6-1_1_AJ871873.aln -c blaOXY-6-1_1_AJ871873 -R blaOXY-6-1_1_AJ871873 -o db_vcf/blaOXY-6-1_1_AJ871873.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaOXY-6-1_1_AJ871873,length=876>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaOXY-6-1_1_AJ871873	blaOXY-6-2_2_AJ871875	blaOXY-6-3_3_AJ871876	blaOXY-6-4_4_AJ871877
+blaOXY-6-1_1_AJ871873	36	.	GGCC	G	.	.	DP=4	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1
+blaOXY-6-1_1_AJ871873	115	.	G	A	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+blaOXY-6-1_1_AJ871873	166	.	G	A	.	.	DP=4	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXY-6-1_1_AJ871873	198	.	C	T	.	.	DP=4	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXY-6-1_1_AJ871873	528	.	A	T	.	.	DP=4	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXY-6-1_1_AJ871873	555	.	C	T	.	.	DP=4	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1

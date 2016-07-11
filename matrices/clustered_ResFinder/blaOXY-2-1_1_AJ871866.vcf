@@ -1,0 +1,21 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaOXY-2-1_1_AJ871866.aln -c blaOXY-2-1_1_AJ871866 -R blaOXY-2-1_1_AJ871866 -o db_vcf/blaOXY-2-1_1_AJ871866.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaOXY-2-1_1_AJ871866,length=873>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaOXY-2-10_10_FJ785626	blaOXY-2-1_1_AJ871866	blaOXY-2-2_2_AJ871867	blaOXY-2-3_3_AY077488	blaOXY-2-4_4_Y17714	blaOXY-2-5_5_AY077487	blaOXY-2-6_6_AY077485	blaOXY-2-7_7_Z49084	blaOXY-2-8_8_AY055205	blaOXY-2-9_9_FJ785625
+blaOXY-2-1_1_AJ871866	36	.	AGCC	A	.	.	DP=10	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	1/1:1	1/1:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaOXY-2-1_1_AJ871866	67	.	G	A	.	.	DP=10	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	1/1:1	0/0:1
+blaOXY-2-1_1_AJ871866	464	.	A	G	.	.	DP=10	GT:DP	1/1:1	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1
+blaOXY-2-1_1_AJ871866	576	.	A	G	.	.	DP=10	GT:DP	1/1:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXY-2-1_1_AJ871866	595	.	G	A	.	.	DP=10	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXY-2-1_1_AJ871866	713	.	GCGC	GTGC,GCAC,GCGG	.	.	DP=10	GT:DP	1/1:1	0/0:1	0/0:1	3/3:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	2/2:1
+blaOXY-2-1_1_AJ871866	763	.	G	A	.	.	DP=10	GT:DP	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXY-2-1_1_AJ871866	778	.	G	A	.	.	DP=10	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXY-2-1_1_AJ871866	828	.	A	G	.	.	DP=10	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXY-2-1_1_AJ871866	831	.	G	A	.	.	DP=10	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXY-2-1_1_AJ871866	847	.	G	A	.	.	DP=10	GT:DP	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1

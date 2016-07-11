@@ -1,0 +1,24 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/mph(C)_1_AB013298.aln -c mph(C)_1_AB013298 -R mph(C)_1_AB013298 -o db_vcf/mph(C)_1_AB013298.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=mph(C)_1_AB013298,length=900>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	mph(C)_1_AB013298	mph(C)_2_AF167161
+mph(C)_1_AB013298	96	.	C	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+mph(C)_1_AB013298	147	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+mph(C)_1_AB013298	162	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+mph(C)_1_AB013298	229	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+mph(C)_1_AB013298	237	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+mph(C)_1_AB013298	249	.	C	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+mph(C)_1_AB013298	251	.	A	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+mph(C)_1_AB013298	254	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+mph(C)_1_AB013298	267	.	G	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+mph(C)_1_AB013298	270	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+mph(C)_1_AB013298	507	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+mph(C)_1_AB013298	693	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+mph(C)_1_AB013298	735	.	C	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+mph(C)_1_AB013298	747	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1

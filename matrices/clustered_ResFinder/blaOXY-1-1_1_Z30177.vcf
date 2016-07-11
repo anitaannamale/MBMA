@@ -1,0 +1,20 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaOXY-1-1_1_Z30177.aln -c blaOXY-1-1_1_Z30177 -R blaOXY-1-1_1_Z30177 -o db_vcf/blaOXY-1-1_1_Z30177.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaOXY-1-1_1_Z30177,length=876>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaOXY-1-1_1_Z30177	blaOXY-1-2_2_AJ871864	blaOXY-1-3_3_AY077482	blaOXY-1-4_4_AY077483	blaOXY-1-5_5_AY077486	blaOXY-1-6_6_Y17715	blaOXY-1-7_7_M27459
+blaOXY-1-1_1_Z30177	36	.	GGCC	G	.	.	DP=7	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaOXY-1-1_1_Z30177	633	.	G	A	.	.	DP=7	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaOXY-1-1_1_Z30177	698	.	C	T	.	.	DP=7	GT:DP	0/0:1	1/1:1	0/0:1	1/1:1	1/1:1	0/0:1	0/0:1
+blaOXY-1-1_1_Z30177	719	.	C	G	.	.	DP=7	GT:DP	0/0:1	1/1:1	1/1:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaOXY-1-1_1_Z30177	747	.	C	T	.	.	DP=7	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	1/1:1
+blaOXY-1-1_1_Z30177	762	.	G	C	.	.	DP=7	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXY-1-1_1_Z30177	785	.	T	C	.	.	DP=7	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXY-1-1_1_Z30177	813	.	G	A	.	.	DP=7	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXY-1-1_1_Z30177	832	.	G	A	.	.	DP=7	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXY-1-1_1_Z30177	870	.	GCTTTAA	G	.	.	DP=7	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1

@@ -1,0 +1,19 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/aadA1_1_X02340.aln -c aadA1_1_X02340 -R aadA1_1_X02340 -o db_vcf/aadA1_1_X02340.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=aadA1_1_X02340,length=972>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	aadA1_1_X02340	aadA1_2_JN815078	aadA1_3_JQ414041	aadA1_4_M95287	aadA1_5_JQ480156	aadA1_5_JX185132
+aadA1_1_X02340	0	.	GTGGTAACGGCGCAGTGGCGGTTTTCATGGCTTCTTGTTATGACATGTTTTTTTGGGGTACAGTCTATGCCTCGGGCATCCAAGCAGCAAGCGCGTTACGCCGTGGGTCGATGTTTGATGTTATGGAGCAGCAACGATGTTACGCAGCAGGGCAGTCGCCCTAAAACAAAGTTAAACATC	.	.	.	DP=1	GT:DP	0/0:1	./.	./.	./.	./.	./.
+aadA1_1_X02340	399	.	T	G	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+aadA1_1_X02340	504	.	A	G	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+aadA1_1_X02340	561	.	C	T	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+aadA1_1_X02340	782	.	A	G	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	1/1:1
+aadA1_1_X02340	864	.	A	G	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+aadA1_1_X02340	880	.	CAAG	C	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+aadA1_1_X02340	903	.	G	C	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+aadA1_1_X02340	930	.	C	T	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1

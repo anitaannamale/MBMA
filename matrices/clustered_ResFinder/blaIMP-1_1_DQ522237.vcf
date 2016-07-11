@@ -1,0 +1,20 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaIMP-1_1_DQ522237.aln -c blaIMP-1_1_DQ522237 -R blaIMP-1_1_DQ522237 -o db_vcf/blaIMP-1_1_DQ522237.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaIMP-1_1_DQ522237,length=741>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaIMP-10_1_AB195637	blaIMP-1_1_DQ522237	blaIMP-34_1_AB715422	blaIMP-3_1_AB010417	blaIMP-40_1_AB753457	blaIMP-42_1_AB753456	blaIMP-6_1_AB188812
+blaIMP-1_1_DQ522237	121	.	A	G	.	.	DP=7	GT:DP	1/1:1	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1
+blaIMP-1_1_DQ522237	133	.	G	A	.	.	DP=7	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaIMP-1_1_DQ522237	145	.	G	T	.	.	DP=7	GT:DP	1/1:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaIMP-1_1_DQ522237	188	.	ACC	ATT	.	.	DP=7	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaIMP-1_1_DQ522237	206	.	T	C	.	.	DP=7	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaIMP-1_1_DQ522237	273	.	C	T	.	.	DP=7	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaIMP-1_1_DQ522237	314	.	A	G	.	.	DP=7	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaIMP-1_1_DQ522237	496	.	T	C	.	.	DP=7	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaIMP-1_1_DQ522237	640	.	A	G	.	.	DP=7	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	1/1:1
+blaIMP-1_1_DQ522237	702	.	G	A	.	.	DP=7	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1	0/0:1	0/0:1

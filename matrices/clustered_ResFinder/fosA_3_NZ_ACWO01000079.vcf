@@ -1,0 +1,17 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/fosA_3_NZ_ACWO01000079.aln -c fosA_3_NZ_ACWO01000079 -R fosA_3_NZ_ACWO01000079 -o db_vcf/fosA_3_NZ_ACWO01000079.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=fosA_3_NZ_ACWO01000079,length=420>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	fosA_10_EU195449	fosA_3_NZ_ACWO01000079
+fosA_3_NZ_ACWO01000079	86	.	C	T	.	.	DP=2	GT:DP	1/1:1	0/0:1
+fosA_3_NZ_ACWO01000079	133	.	T	C	.	.	DP=2	GT:DP	1/1:1	0/0:1
+fosA_3_NZ_ACWO01000079	267	.	G	A	.	.	DP=2	GT:DP	1/1:1	0/0:1
+fosA_3_NZ_ACWO01000079	271	.	A	G	.	.	DP=2	GT:DP	1/1:1	0/0:1
+fosA_3_NZ_ACWO01000079	297	.	T	C	.	.	DP=2	GT:DP	1/1:1	0/0:1
+fosA_3_NZ_ACWO01000079	300	.	C	T	.	.	DP=2	GT:DP	1/1:1	0/0:1
+fosA_3_NZ_ACWO01000079	384	.	A	G	.	.	DP=2	GT:DP	1/1:1	0/0:1

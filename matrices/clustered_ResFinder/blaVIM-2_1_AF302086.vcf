@@ -1,0 +1,24 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaVIM-2_1_AF302086.aln -c blaVIM-2_1_AF302086 -R blaVIM-2_1_AF302086 -o db_vcf/blaVIM-2_1_AF302086.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaVIM-2_1_AF302086,length=801>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaVIM-10_1_AY524989	blaVIM-11_1_AY605049	blaVIM-15_1_EU419745	blaVIM-16_1_EU419746	blaVIM-17_1_EU118148	blaVIM-18_1_AM778091	blaVIM-20_1_GQ414736	blaVIM-23_1_GQ242167	blaVIM-24_1_HM855205	blaVIM-2_1_AF302086	blaVIM-30_1_JN129451	blaVIM-31_1_JN982330	blaVIM-36_1_JX982635	blaVIM-3_1_AF300454	blaVIM-6_1_AY165025	blaVIM-8_1_AY524987	blaVIM-9_1_AY524988
+blaVIM-2_1_AF302086	48	.	C	G	.	.	DP=17	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaVIM-2_1_AF302086	110	.	G	A	.	.	DP=17	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaVIM-2_1_AF302086	164	.	C	T	.	.	DP=17	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaVIM-2_1_AF302086	177	.	GCA	GCG,GAA	.	.	DP=17	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	2/2:1	1/1:1	0/0:1	0/0:1
+blaVIM-2_1_AF302086	414	.	GAC	GAT,GGC	.	.	DP=17	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	2/2:1	1/1:1
+blaVIM-2_1_AF302086	428	.	CCGAGGTAGAGGG	C	.	.	DP=17	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaVIM-2_1_AF302086	443	.	A	G	.	.	DP=17	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1	0/0:1
+blaVIM-2_1_AF302086	492	.	A	G	.	.	DP=17	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaVIM-2_1_AF302086	584	.	A	T	.	.	DP=17	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaVIM-2_1_AF302086	601	.	T	C	.	.	DP=17	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaVIM-2_1_AF302086	612	.	ACG	ACT,AAG	.	.	DP=17	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	2/2:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaVIM-2_1_AF302086	686	.	A	G	.	.	DP=17	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaVIM-2_1_AF302086	693	.	G	A	.	.	DP=17	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaVIM-2_1_AF302086	704	.	T	A	.	.	DP=17	GT:DP	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1

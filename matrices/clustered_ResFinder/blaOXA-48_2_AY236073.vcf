@@ -1,0 +1,21 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaOXA-48_2_AY236073.aln -c blaOXA-48_2_AY236073 -R blaOXA-48_2_AY236073 -o db_vcf/blaOXA-48_2_AY236073.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaOXA-48_2_AY236073,length=798>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaOXA-162_1_GU197550	blaOXA-163_1_HQ700343	blaOXA-204_1_JQ809466	blaOXA-244_1_JX438000	blaOXA-245_1_JX438001	blaOXA-247_1_JX893517	blaOXA-48_2_AY236073
+blaOXA-48_2_AY236073	293	.	AGAC	ATCG	.	.	DP=7	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-48_2_AY236073	373	.	G	T	.	.	DP=7	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaOXA-48_2_AY236073	375	.	A	C	.	.	DP=7	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaOXA-48_2_AY236073	477	.	C	T	.	.	DP=7	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-48_2_AY236073	501	.	G	T	.	.	DP=7	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-48_2_AY236073	603	.	T	C	.	.	DP=7	GT:DP	0/0:1	1/1:1	1/1:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-48_2_AY236073	627	.	T	G	.	.	DP=7	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-48_2_AY236073	631	.	TACTCGACTAGAAT	TACTCGACTGGAAT,TA,TC,TACTCGGCTAGAAT	.	.	DP=7	GT:DP	4/4:1	2/2:1	0/0:1	1/1:1	0/0:1	3/3:1	0/0:1
+blaOXA-48_2_AY236073	646	.	G	A	.	.	DP=7	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-48_2_AY236073	647	.	AAC	ATA	.	.	DP=7	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-48_2_AY236073	684	.	T	G	.	.	DP=7	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1

@@ -1,0 +1,25 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaB-7_1_AF189304.aln -c blaB-7_1_AF189304 -R blaB-7_1_AF189304 -o db_vcf/blaB-7_1_AF189304.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaB-7_1_AF189304,length=747>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaB-10_1_AY348325	blaB-7_1_AF189304	blaB-8_1_AF189305
+blaB-7_1_AF189304	18	.	G	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaB-7_1_AF189304	39	.	T	C	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaB-7_1_AF189304	123	.	C	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaB-7_1_AF189304	187	.	A	G	.	.	DP=3	GT:DP	1/1:1	0/0:1	1/1:1
+blaB-7_1_AF189304	261	.	T	A	.	.	DP=3	GT:DP	1/1:1	0/0:1	1/1:1
+blaB-7_1_AF189304	285	.	G	A	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaB-7_1_AF189304	459	.	C	T	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaB-7_1_AF189304	468	.	G	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaB-7_1_AF189304	501	.	G	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaB-7_1_AF189304	507	.	C	T	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaB-7_1_AF189304	549	.	T	C	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaB-7_1_AF189304	564	.	C	T	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaB-7_1_AF189304	579	.	A	G	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaB-7_1_AF189304	618	.	T	C	.	.	DP=3	GT:DP	1/1:1	0/0:1	1/1:1
+blaB-7_1_AF189304	637	.	G	T	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1

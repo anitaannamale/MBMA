@@ -1,0 +1,14 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaCMY-8_1_EF382672.aln -c blaCMY-8_1_EF382672 -R blaCMY-8_1_EF382672 -o db_vcf/blaCMY-8_1_EF382672.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaCMY-8_1_EF382672,length=1149>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaCMY-19_1_AB194410	blaCMY-8_1_EF382672	blaCMY-8_2_DQ094251	blaCMY-9_1_AB061794	blaMOX-1_1_D13304
+blaCMY-8_1_EF382672	255	.	G	T	.	.	DP=5	GT:DP	1/1:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaCMY-8_1_EF382672	371	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaCMY-8_1_EF382672	944	.	T	G	.	.	DP=5	GT:DP	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaCMY-8_1_EF382672	1016	.	C	G	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1

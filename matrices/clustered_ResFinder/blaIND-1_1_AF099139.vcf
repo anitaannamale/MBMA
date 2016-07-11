@@ -1,0 +1,14 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaIND-1_1_AF099139.aln -c blaIND-1_1_AF099139 -R blaIND-1_1_AF099139 -o db_vcf/blaIND-1_1_AF099139.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaIND-1_1_AF099139,length=720>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaIND-1_1_AF099139	blaIND-7_1_AB529520
+blaIND-1_1_AF099139	60	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaIND-1_1_AF099139	198	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaIND-1_1_AF099139	214	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaIND-1_1_AF099139	318	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1

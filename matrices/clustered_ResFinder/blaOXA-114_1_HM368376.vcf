@@ -1,0 +1,29 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaOXA-114_1_HM368376.aln -c blaOXA-114_1_HM368376 -R blaOXA-114_1_HM368376 -o db_vcf/blaOXA-114_1_HM368376.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaOXA-114_1_HM368376,length=828>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaOXA-114_1_HM368376	blaOXA-114_2_HM368375	blaOXA-114_3_HM104634	blaOXA-114_4_HM104633	blaOXA-114_5_HM056041	blaOXA-114_6_HM056040
+blaOXA-114_1_HM368376	136	.	G	A	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-114_1_HM368376	173	.	C	G	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaOXA-114_1_HM368376	359	.	A	T	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaOXA-114_1_HM368376	405	.	C	A	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1
+blaOXA-114_1_HM368376	426	.	C	G	.	.	DP=6	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1
+blaOXA-114_1_HM368376	440	.	G	A	.	.	DP=6	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1
+blaOXA-114_1_HM368376	444	.	C	T	.	.	DP=6	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-114_1_HM368376	520	.	G	C	.	.	DP=6	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1
+blaOXA-114_1_HM368376	528	.	C	T	.	.	DP=6	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	0/0:1	1/1:1
+blaOXA-114_1_HM368376	564	.	G	T	.	.	DP=6	GT:DP	0/0:1	1/1:1	0/0:1	1/1:1	0/0:1	1/1:1
+blaOXA-114_1_HM368376	567	.	G	C	.	.	DP=6	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1
+blaOXA-114_1_HM368376	570	.	C	A	.	.	DP=6	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	0/0:1	1/1:1
+blaOXA-114_1_HM368376	584	.	T	C	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	1/1:1
+blaOXA-114_1_HM368376	630	.	G	T	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-114_1_HM368376	693	.	T	G	.	.	DP=6	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1
+blaOXA-114_1_HM368376	711	.	A	G	.	.	DP=6	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1
+blaOXA-114_1_HM368376	738	.	C	T	.	.	DP=6	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1
+blaOXA-114_1_HM368376	752	.	A	G	.	.	DP=6	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-114_1_HM368376	806	.	T	A	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1

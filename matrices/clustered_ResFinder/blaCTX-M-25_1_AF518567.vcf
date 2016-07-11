@@ -1,0 +1,18 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaCTX-M-25_1_AF518567.aln -c blaCTX-M-25_1_AF518567 -R blaCTX-M-25_1_AF518567 -o db_vcf/blaCTX-M-25_1_AF518567.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaCTX-M-25_1_AF518567,length=876>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaCTX-M-100_1_FR682582	blaCTX-M-25_1_AF518567	blaCTX-M-26_1_AY455830	blaCTX-M-39_1_AY954516	blaCTX-M-41_1_DQ023162	blaCTX-M-89_2_FJ971899	blaCTX-M-91_1_GQ870432	blaCTX-M-94_1_HM167760
+blaCTX-M-25_1_AF518567	105	.	A	G	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaCTX-M-25_1_AF518567	239	.	T	C	.	.	DP=8	GT:DP	1/1:1	0/0:1	1/1:1	1/1:1	1/1:1	0/0:1	0/0:1	1/1:1
+blaCTX-M-25_1_AF518567	316	.	A	G	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaCTX-M-25_1_AF518567	366	.	C	A	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaCTX-M-25_1_AF518567	377	.	G	T	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaCTX-M-25_1_AF518567	574	.	G	T	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaCTX-M-25_1_AF518567	674	.	A	G	.	.	DP=8	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaCTX-M-25_1_AF518567	725	.	G	A	.	.	DP=8	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1	1/1:1	1/1:1	0/0:1

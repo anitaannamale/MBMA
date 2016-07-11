@@ -1,0 +1,28 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/cfiA1_1_AB087225.aln -c cfiA1_1_AB087225 -R cfiA1_1_AB087225 -o db_vcf/cfiA1_1_AB087225.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=cfiA1_1_AB087225,length=750>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	cfiA10_1_AB087227	cfiA1_1_AB087225	cfiA2_1_AB087226	cfiA3_1_AB087228	cfiA4_1_AB087229	cfiA6_1_AB087231	cfiA8_1_AB087233	cfiA9_1_AB087234
+cfiA1_1_AB087225	81	.	T	C	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+cfiA1_1_AB087225	168	.	A	G	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+cfiA1_1_AB087225	187	.	C	T	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+cfiA1_1_AB087225	189	.	T	C	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+cfiA1_1_AB087225	251	.	TAG	TGA	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+cfiA1_1_AB087225	255	.	G	A	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+cfiA1_1_AB087225	270	.	C	T	.	.	DP=8	GT:DP	1/1:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	1/1:1
+cfiA1_1_AB087225	357	.	C	T	.	.	DP=8	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+cfiA1_1_AB087225	360	.	A	G	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+cfiA1_1_AB087225	396	.	A	G	.	.	DP=8	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+cfiA1_1_AB087225	440	.	GTC	GCT	.	.	DP=8	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1
+cfiA1_1_AB087225	465	.	T	C	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+cfiA1_1_AB087225	483	.	A	G	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+cfiA1_1_AB087225	562	.	G	A	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+cfiA1_1_AB087225	671	.	GCG	GTA	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+cfiA1_1_AB087225	703	.	A	C	.	.	DP=8	GT:DP	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+cfiA1_1_AB087225	738	.	T	C	.	.	DP=8	GT:DP	1/1:1	0/0:1	0/0:1	1/1:1	0/0:1	1/1:1	1/1:1	1/1:1
+cfiA1_1_AB087225	740	.	C	T	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1

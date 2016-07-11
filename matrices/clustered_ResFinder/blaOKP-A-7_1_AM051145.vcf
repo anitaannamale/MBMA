@@ -1,0 +1,24 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaOKP-A-7_1_AM051145.aln -c blaOKP-A-7_1_AM051145 -R blaOKP-A-7_1_AM051145 -o db_vcf/blaOKP-A-7_1_AM051145.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaOKP-A-7_1_AM051145,length=861>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaOKP-A-10_1_AM051149	blaOKP-A-7_1_AM051145	blaOKP-A-9_1_AM051148
+blaOKP-A-7_1_AM051145	8	.	G	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOKP-A-7_1_AM051145	28	.	T	C	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaOKP-A-7_1_AM051145	71	.	A	C	.	.	DP=3	GT:DP	1/1:1	0/0:1	1/1:1
+blaOKP-A-7_1_AM051145	78	.	C	T	.	.	DP=3	GT:DP	1/1:1	0/0:1	1/1:1
+blaOKP-A-7_1_AM051145	81	.	A	G	.	.	DP=3	GT:DP	1/1:1	0/0:1	1/1:1
+blaOKP-A-7_1_AM051145	92	.	T	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOKP-A-7_1_AM051145	209	.	T	C	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaOKP-A-7_1_AM051145	257	.	G	A	.	.	DP=3	GT:DP	1/1:1	0/0:1	1/1:1
+blaOKP-A-7_1_AM051145	281	.	C	G	.	.	DP=3	GT:DP	1/1:1	0/0:1	1/1:1
+blaOKP-A-7_1_AM051145	459	.	T	C	.	.	DP=3	GT:DP	1/1:1	0/0:1	1/1:1
+blaOKP-A-7_1_AM051145	501	.	G	A	.	.	DP=3	GT:DP	1/1:1	0/0:1	1/1:1
+blaOKP-A-7_1_AM051145	630	.	C	T	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaOKP-A-7_1_AM051145	766	.	G	A	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaOKP-A-7_1_AM051145	793	.	G	A	.	.	DP=3	GT:DP	1/1:1	0/0:1	1/1:1

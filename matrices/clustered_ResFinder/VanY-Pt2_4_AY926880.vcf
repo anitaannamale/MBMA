@@ -1,0 +1,23 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/VanY-Pt2_4_AY926880.aln -c VanY-Pt2_4_AY926880 -R VanY-Pt2_4_AY926880 -o db_vcf/VanY-Pt2_4_AY926880.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=VanY-Pt2_4_AY926880,length=891>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	VanY-Pt2_4_AY926880	VanY-Pt_3_DQ018710
+VanY-Pt2_4_AY926880	15	.	G	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+VanY-Pt2_4_AY926880	24	.	T	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+VanY-Pt2_4_AY926880	77	.	AAGTAGC	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+VanY-Pt2_4_AY926880	94	.	G	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+VanY-Pt2_4_AY926880	138	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+VanY-Pt2_4_AY926880	144	.	G	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+VanY-Pt2_4_AY926880	153	.	C	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+VanY-Pt2_4_AY926880	162	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+VanY-Pt2_4_AY926880	255	.	C	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+VanY-Pt2_4_AY926880	364	.	T	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+VanY-Pt2_4_AY926880	606	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+VanY-Pt2_4_AY926880	741	.	C	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+VanY-Pt2_4_AY926880	771	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1

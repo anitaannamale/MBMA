@@ -1,0 +1,17 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaOKP-A-12_1_AM850915.aln -c blaOKP-A-12_1_AM850915 -R blaOKP-A-12_1_AM850915 -o db_vcf/blaOKP-A-12_1_AM850915.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaOKP-A-12_1_AM850915,length=861>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaOKP-A-12_1_AM850915	blaOKP-A-16_1_FJ755840
+blaOKP-A-12_1_AM850915	53	.	C	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaOKP-A-12_1_AM850915	189	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaOKP-A-12_1_AM850915	471	.	C	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaOKP-A-12_1_AM850915	501	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaOKP-A-12_1_AM850915	636	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaOKP-A-12_1_AM850915	642	.	C	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaOKP-A-12_1_AM850915	804	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1

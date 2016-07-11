@@ -1,0 +1,23 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaHERA-1_1_AF311385.aln -c blaHERA-1_1_AF311385 -R blaHERA-1_1_AF311385 -o db_vcf/blaHERA-1_1_AF311385.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaHERA-1_1_AF311385,length=873>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaHERA-1_1_AF311385	blaHERA-4_1_AJ536088	blaHERA-5_1_AJ536089
+blaHERA-1_1_AF311385	26	.	T	C	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaHERA-1_1_AF311385	42	.	T	C	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaHERA-1_1_AF311385	249	.	G	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaHERA-1_1_AF311385	357	.	T	C	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaHERA-1_1_AF311385	367	.	C	T	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaHERA-1_1_AF311385	375	.	G	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaHERA-1_1_AF311385	431	.	G	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaHERA-1_1_AF311385	438	.	T	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaHERA-1_1_AF311385	474	.	C	A	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaHERA-1_1_AF311385	589	.	T	G	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaHERA-1_1_AF311385	602	.	T	C	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaHERA-1_1_AF311385	604	.	T	C	.	.	DP=3	GT:DP	0/0:1	0/0:1	1/1:1
+blaHERA-1_1_AF311385	833	.	T	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1

@@ -1,0 +1,23 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/tet(L)_2_M29725.aln -c tet(L)_2_M29725 -R tet(L)_2_M29725 -o db_vcf/tet(L)_2_M29725.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=tet(L)_2_M29725,length=1377>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	tet(L)_2_M29725	tet(L)_4_M11036	tet(L)_5_D00006	tet(L)_8_X60828	tet(L)_9_AY081910
+tet(L)_2_M29725	280	.	G	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+tet(L)_2_M29725	528	.	G	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+tet(L)_2_M29725	598	.	GATATC	GGATCT	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+tet(L)_2_M29725	961	.	GGT	GTG	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+tet(L)_2_M29725	972	.	C	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+tet(L)_2_M29725	974	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+tet(L)_2_M29725	1062	.	A	T	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+tet(L)_2_M29725	1086	.	TTC	TCT	.	.	DP=5	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+tet(L)_2_M29725	1180	.	T	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+tet(L)_2_M29725	1244	.	A	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+tet(L)_2_M29725	1246	.	A	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+tet(L)_2_M29725	1251	.	G	A	.	.	DP=5	GT:DP	0/0:1	1/1:1	1/1:1	0/0:1	0/0:1
+tet(L)_2_M29725	1348	.	G	C	.	.	DP=5	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1

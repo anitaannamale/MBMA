@@ -1,0 +1,27 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaOXA-92_1_DQ335566.aln -c blaOXA-92_1_DQ335566 -R blaOXA-92_1_DQ335566 -o db_vcf/blaOXA-92_1_DQ335566.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaOXA-92_1_DQ335566,length=825>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaOXA-107_1_EF650033	blaOXA-110_1_EF650036	blaOXA-112_1_EF650038	blaOXA-120_1_HE963768	blaOXA-248_1_HE963769	blaOXA-250_1_HE963771	blaOXA-371_1_AB871653	blaOXA-92_1_DQ335566
+blaOXA-92_1_DQ335566	301	.	G	A	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-92_1_DQ335566	309	.	A	G	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-92_1_DQ335566	315	.	T	C	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-92_1_DQ335566	319	.	G	C	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-92_1_DQ335566	330	.	A	G	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-92_1_DQ335566	349	.	A	G	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-92_1_DQ335566	363	.	C	T	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-92_1_DQ335566	385	.	A	C	.	.	DP=8	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-92_1_DQ335566	387	.	T	G	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaOXA-92_1_DQ335566	389	.	C	T	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaOXA-92_1_DQ335566	426	.	G	A	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-92_1_DQ335566	499	.	C	G	.	.	DP=8	GT:DP	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-92_1_DQ335566	511	.	C	T	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-92_1_DQ335566	665	.	G	T	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaOXA-92_1_DQ335566	701	.	C	G	.	.	DP=8	GT:DP	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	0/0:1
+blaOXA-92_1_DQ335566	709	.	C	A	.	.	DP=8	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-92_1_DQ335566	736	.	T	C	.	.	DP=8	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1

@@ -1,0 +1,27 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaFONA-4_1_AJ251242.aln -c blaFONA-4_1_AJ251242 -R blaFONA-4_1_AJ251242 -o db_vcf/blaFONA-4_1_AJ251242.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaFONA-4_1_AJ251242,length=888>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaFONA-1_1_AJ251239	blaFONA-2_1_AJ251240	blaFONA-4_1_AJ251242
+blaFONA-4_1_AJ251242	4	.	G	A	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaFONA-4_1_AJ251242	39	.	C	G	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaFONA-4_1_AJ251242	58	.	T	C	.	.	DP=3	GT:DP	1/1:1	1/1:1	0/0:1
+blaFONA-4_1_AJ251242	64	.	G	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaFONA-4_1_AJ251242	129	.	A	G	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaFONA-4_1_AJ251242	140	.	G	A	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaFONA-4_1_AJ251242	432	.	G	A	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaFONA-4_1_AJ251242	507	.	C	T	.	.	DP=3	GT:DP	1/1:1	1/1:1	0/0:1
+blaFONA-4_1_AJ251242	519	.	A	G	.	.	DP=3	GT:DP	1/1:1	1/1:1	0/0:1
+blaFONA-4_1_AJ251242	549	.	TGAA	TCCG	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaFONA-4_1_AJ251242	609	.	C	T	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaFONA-4_1_AJ251242	672	.	A	C	.	.	DP=3	GT:DP	1/1:1	1/1:1	0/0:1
+blaFONA-4_1_AJ251242	796	.	T	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaFONA-4_1_AJ251242	801	.	G	C	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaFONA-4_1_AJ251242	813	.	C	G	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1
+blaFONA-4_1_AJ251242	831	.	C	T	.	.	DP=3	GT:DP	0/0:1	1/1:1	0/0:1
+blaFONA-4_1_AJ251242	861	.	C	T	.	.	DP=3	GT:DP	1/1:1	0/0:1	0/0:1

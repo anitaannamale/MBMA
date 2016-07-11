@@ -1,0 +1,27 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaOXA-7_1_X75562.aln -c blaOXA-7_1_X75562 -R blaOXA-7_1_X75562 -o db_vcf/blaOXA-7_1_X75562.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaOXA-7_1_X75562,length=804>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaOXA-101_1_AM412777	blaOXA-13_1_AF043558	blaOXA-13_1_U59183	blaOXA-145_1_FJ790516	blaOXA-147_1_FJ848783	blaOXA-183_1_HQ111474	blaOXA-19_1_AF043381	blaOXA-28_1_FJ374756	blaOXA-35_1_AF315786	blaOXA-56_1_AY660529	blaOXA-56_1_EF437948	blaOXA-7_1_X75562
+blaOXA-7_1_X75562	42	.	A	G	.	.	DP=12	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-7_1_X75562	56	.	C	T	.	.	DP=12	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-7_1_X75562	80	.	T	C	.	.	DP=12	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaOXA-7_1_X75562	111	.	C	T	.	.	DP=12	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-7_1_X75562	148	.	TTAG	T	.	.	DP=12	GT:DP	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	0/0:1
+blaOXA-7_1_X75562	221	.	A	G	.	.	DP=12	GT:DP	0/0:1	1/1:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-7_1_X75562	268	.	A	G	.	.	DP=12	GT:DP	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	0/0:1	1/1:1	0/0:1
+blaOXA-7_1_X75562	408	.	T	C	.	.	DP=12	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaOXA-7_1_X75562	423	.	A	G	.	.	DP=12	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaOXA-7_1_X75562	429	.	T	C	.	.	DP=12	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaOXA-7_1_X75562	452	.	T	C	.	.	DP=12	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-7_1_X75562	462	.	CTGGTT	CTTGTT,CTG,CGGGTT	.	.	DP=12	GT:DP	0/0:1	0/0:1	0/0:1	2/2:1	1/1:1	0/0:1	0/0:1	3/3:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-7_1_X75562	473	.	G	A	.	.	DP=12	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaOXA-7_1_X75562	480	.	T	A	.	.	DP=12	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	0/0:1	0/0:1	0/0:1
+blaOXA-7_1_X75562	588	.	G	GGCT	.	.	DP=12	GT:DP	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	0/0:1
+blaOXA-7_1_X75562	691	.	G	A	.	.	DP=12	GT:DP	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1	0/0:1	1/1:1	0/0:1
+blaOXA-7_1_X75562	797	.	GTGGCTAA	G	.	.	DP=12	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1

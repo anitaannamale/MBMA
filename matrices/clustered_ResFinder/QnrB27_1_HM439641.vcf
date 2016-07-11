@@ -1,0 +1,16 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/QnrB27_1_HM439641.aln -c QnrB27_1_HM439641 -R QnrB27_1_HM439641 -o db_vcf/QnrB27_1_HM439641.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=QnrB27_1_HM439641,length=645>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	QnrB27_1_HM439641	QnrB27_2_HM439642	QnrB28_1_HM439643	QnrB33_1_JN173055
+QnrB27_1_HM439641	109	.	G	A	.	.	DP=4	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1
+QnrB27_1_HM439641	144	.	C	T	.	.	DP=4	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1
+QnrB27_1_HM439641	236	.	C	T	.	.	DP=4	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1
+QnrB27_1_HM439641	474	.	C	A	.	.	DP=4	GT:DP	0/0:1	0/0:1	1/1:1	0/0:1
+QnrB27_1_HM439641	510	.	C	T	.	.	DP=4	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1
+QnrB27_1_HM439641	642	.	C	T	.	.	DP=4	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1

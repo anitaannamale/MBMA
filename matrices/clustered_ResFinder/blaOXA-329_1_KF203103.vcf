@@ -1,0 +1,23 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaOXA-329_1_KF203103.aln -c blaOXA-329_1_KF203103 -R blaOXA-329_1_KF203103 -o db_vcf/blaOXA-329_1_KF203103.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaOXA-329_1_KF203103,length=822>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaOXA-329_1_KF203103	blaOXA-354_1_KF297583
+blaOXA-329_1_KF203103	60	.	C	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaOXA-329_1_KF203103	64	.	A	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaOXA-329_1_KF203103	66	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaOXA-329_1_KF203103	116	.	C	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaOXA-329_1_KF203103	129	.	T	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaOXA-329_1_KF203103	138	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaOXA-329_1_KF203103	144	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaOXA-329_1_KF203103	153	.	A	T	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaOXA-329_1_KF203103	174	.	G	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaOXA-329_1_KF203103	219	.	C	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaOXA-329_1_KF203103	221	.	C	A	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaOXA-329_1_KF203103	287	.	T	C	.	.	DP=2	GT:DP	0/0:1	1/1:1
+blaOXA-329_1_KF203103	318	.	A	G	.	.	DP=2	GT:DP	0/0:1	1/1:1

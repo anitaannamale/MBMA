@@ -1,0 +1,32 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth.">
+##MsaToVcfCmdLine=algn_cdhit98/blaMIR-1_1_M37839.aln -c blaMIR-1_1_M37839 -R blaMIR-1_1_M37839 -o db_vcf/blaMIR-1_1_M37839.vcf
+##MsaToVcfHtsJdkHome=/Users/philippe/Documents/Anita/Resistance_genes/prog/jvarkit/htsjdk-8dd4559dced3a243dde094415a9974c03aceb3e3
+##MsaToVcfHtsJdkVersion=2.1.1
+##MsaToVcfVersion=7d668372271a7ecc28da6051c0ef251f70bbece9
+##contig=<ID=blaMIR-1_1_M37839,length=1146>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	blaMIR-1_1_M37839	blaMIR-2_1_AY227752	blaMIR-3_1_AY743435	blaMIR-4_1_EF417572	blaMIR-5_1_FJ237367	blaMIR-6_1_JQ664733
+blaMIR-1_1_M37839	43	.	G	A	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaMIR-1_1_M37839	47	.	GTT	GCG,GCT	.	.	DP=6	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	2/2:1	1/1:1
+blaMIR-1_1_M37839	71	.	C	T	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaMIR-1_1_M37839	77	.	A	C	.	.	DP=6	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaMIR-1_1_M37839	266	.	T	C	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaMIR-1_1_M37839	396	.	T	C	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaMIR-1_1_M37839	447	.	C	T	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaMIR-1_1_M37839	495	.	C	T	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaMIR-1_1_M37839	549	.	T	C	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1	0/0:1
+blaMIR-1_1_M37839	656	.	T	A	.	.	DP=6	GT:DP	0/0:1	1/1:1	1/1:1	1/1:1	1/1:1	1/1:1
+blaMIR-1_1_M37839	760	.	C	G	.	.	DP=6	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaMIR-1_1_M37839	792	.	G	C	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1	0/0:1
+blaMIR-1_1_M37839	849	.	G	T	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1	0/0:1
+blaMIR-1_1_M37839	852	.	T	C	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaMIR-1_1_M37839	865	.	T	C	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1
+blaMIR-1_1_M37839	867	.	A	G	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	1/1:1
+blaMIR-1_1_M37839	984	.	C	T	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaMIR-1_1_M37839	987	.	G	A	.	.	DP=6	GT:DP	0/0:1	0/0:1	1/1:1	1/1:1	0/0:1	1/1:1
+blaMIR-1_1_M37839	1020	.	C	T	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1
+blaMIR-1_1_M37839	1062	.	C	A	.	.	DP=6	GT:DP	0/0:1	0/0:1	0/0:1	1/1:1	0/0:1	0/0:1
+blaMIR-1_1_M37839	1124	.	G	A	.	.	DP=6	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
+blaMIR-1_1_M37839	1140	.	G	A	.	.	DP=6	GT:DP	0/0:1	1/1:1	0/0:1	0/0:1	0/0:1	0/0:1
