@@ -391,7 +391,9 @@ function timer()
     fi
 }}
 
-### PROGRAMS
+###PROGRAMS
+export LD_LIBRARY_PATH=/pasteur/projets/Matrix/metagenomics/htslib/lib:$LD_LIBRARY_PATH
+export PYTHONPATH=/pasteur/projets/Matrix/metagenomics/python-lib/lib/python2.7/site-packages/:$PYTHONPATH
 
 echo $date
 echo "Mapping files: $INFILE_1 & $INFILE_2" 
