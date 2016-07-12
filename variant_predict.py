@@ -1,11 +1,20 @@
 #! /usr/bin/env python
 # -*- coding: utf8 -*-
 
+"""
+variant_predict.py : Script that 
+                        1) Create a matrice merging all the variant matrix from
+                           each cluster
+                        2) Create a variant profile from a sample VCF file
+                        3) Compare variant profile to variant matrice 
+                            to identify and quantify genes
+                        4) Rewrite a count table
+"""
 
 __author__ = "Anita Annamalé"
-__version__  = "0.1"
+__version__  = "0.2"
 __copyright__ = "copyleft"
-__date__ = "2016/05"
+__date__ = "2016/07"
 
 #-------------------------- MODULES IMPORTATION -------------------------------#
 

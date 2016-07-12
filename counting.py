@@ -1,11 +1,33 @@
 #! /usr/bin/env python
 # -*- coding: utf8 -*-
 
+"""
+counting.py : Script that count alignment from a bam file using three different
+              methods (best, ex-aequo, shared) and output a count table.
+
+              Mapping generates two sort of reads, reads that map to a unique 
+              location with the best alignment score, called "unique reads"
+              and reads those map to several locations with the best alignment
+              score, called as "multiple reads"
+              The Three counting methods differ by the way they handle multiple
+              reads :
+                - Best : a multiple read provide 1 point to one location randomly
+                - Ex-aequo : a multiple read provide 1 point to each location
+                - Shared : a multiple read is weights according the probability 
+                            that the alignment is the true point of origin of 
+                            the read
+
+                Created count table contains 
+                in columns: 
+                     1) reference sequence 
+                     2) sequence length  
+                     3) number of read mapped to the reference for sample
+"""
 
 __author__ = "Anita Annamalé"
-__version__  = "1.0"
+__version__  = "2.0"
 __copyright__ = "copyleft"
-__date__ = "2016/02"
+__date__ = "2016/07"
 
 #-------------------------- MODULES IMPORTATION -------------------------------#
 
@@ -22,20 +44,20 @@ import itertools
 
 def is_sam(path):
     """
-    Check if a path is an existing file.
+    Check if a path is an existing SAM file.
 
     Args:
-        path [string] = Path to the file
+        path [STR] = Path to the file
 
     Returns:
-        abs_path [string] = absolute path
+        abs_path [STR] = absolute path
         or quit
     """
     abs_path = os.path.abspath(path) # get absolute path
 
-    # if not a directory
+    # if not a file
     if not os.path.isfile(abs_path):
-        # check if it is a path to a file
+        # check if it is a path to a dir
         if os.path.isdir(abs_path):
             msg = "{0} is a directory not a file.".format(abs_path)
         # else the path doesn't not exist
@@ -44,7 +66,7 @@ def is_sam(path):
         raise argparse.ArgumentTypeError(msg)
 
     else :
-        ext = os.path.splitext(abs_path)[1]
+        ext = os.path.splitext(abs_path)[1] # get the file extension
         if ext != 'sam':
             msg = ("{0} isn't a sam file. "
                   "Please, provide a file with extension .sam".format(abs_path))
@@ -54,7 +76,7 @@ def is_sam(path):
 
 def path_not_exists(path):
     """
-    Check if a path is not exist.
+    Check if a path is exist or not.
 
     Args:
         path [string] = Path to check
@@ -75,14 +97,33 @@ def path_not_exists(path):
 
 
 def create_bam(filename):
+    """
+    Function that create a BAM file from a SAM file.
+
+    Args :
+        filename [STR] = SAM filename
+
+    Returns:
+        bamfile [STR] = BAM filename
+    """
+    # name of the bam file to create
     bamfile = os.path.dirname(filename)[:-3] + "bam/" + os.path.basename(filename)[:-3] + "bam" 
-    # convert sam to bam
+    # convert sam to bam using pysam
     pysam.view('-Sb',filename, '-o', bamfile, catch_stdout=False)
 
     return bamfile
 
 
 def sort_bam(filename):
+    """
+    Function that sort a BAM file using pysam
+
+    Args:
+        filename [STR] = unsorted BAM file
+
+    Returns :
+        sortfile [STR] = sorted BAM filename
+    """
     sortfile = '{0}/sorted_{1}'.format(os.path.dirname(filename),
                                        os.path.basename(filename)[:-4])
     # sort the bam file
@@ -92,6 +133,16 @@ def sort_bam(filename):
 
     
 def only_mapped(filename):
+    """
+    Function that keep only mapped reads in the BAM file
+
+    Args:
+        filename [STR] = BAM file, containing all alignments
+
+    Returns:
+        mappedfile [STR] = BAM file with only the mapped reads
+    """
+    # new bamfile name
     mappedfile = '{0}/filtered_{1}'.format(os.path.dirname(filename),
                                        os.path.basename(filename)[7:])
     # get only mapped reads
@@ -101,69 +152,112 @@ def only_mapped(filename):
 
 
 def write_table(filename, outfile):
-    
+    """
+    Function that create a count table using pysam. First index the BAM file,
+    then count reads using the function idxstats from pysam, and output a count
+    table.
+
+    Args :
+        filename [STR] : BAM file to count
+        outfile [STR] : count table name
+
+    No Returns 
+    """
     # index the bam file
     pysam.index(filename)
     # create count table
     table = pysam.idxstats(filename)
-    
+    # write the count table
     with open(outfile, 'wt') as out:
         for line in table:
             out.write(line)
 
 
 def read_bam(filename, count, bam=False):
+    """
+    Function that count reads from a BAM file, using the given methods in count:
+    "ex-aequo" or "shared". If bam is set to 'True', a BAM file containing only 
+    the used alignment for the counting is generated.
+
+    Args:
+        filename [STR] = BAM file to count
+        count [STR] = counting method, either 'ex-aequo', either 'shared'
+        bam [True/False] = create or not a BAM file
+
+    Returns:
+        if count = ex-aequo : new_filename [STR] = BAM file
+        if count = shared :  
+                database [DICT] = contains length of reference genomes.
+                                    key : reference genome
+                                    value : size
+                tmp_genomes [DICT] =
+    """
+    # initialise
     tmp_score = dict()
     tmp_genomes = defaultdict(list)
-    samfile = pysam.AlignmentFile(filename, "rb")
+    # open the BAM file
+    bamfile = pysam.AlignmentFile(filename, "rb")
     
     if (count == "ex-aequo") or bam:
-        reads = defaultdict(list)
-        new_filename = os.path.dirname(filename) + "/unsorted_filtered_" + os.path.basename(filename)
+        reads = defaultdict(list) # contains a list a alignment of each read
+        # name of the filtered BAM file
+        new_filename = (os.path.dirname(filename) + "/unsorted_filtered_" + 
+                       os.path.basename(filename))
     if count == "shared":
-        references = samfile.references
-        lengths = samfile.lengths
-        database = dict(zip(references, lengths))
+        # create a dictionary containing the length of reference genomes
+        references = bamfile.references # get name of reference sequence
+        lengths = bamfile.lengths   # get reference length
+        database = dict(zip(references, lengths)) 
     
-    for element in samfile:
-        if not element.is_unmapped:
-            if element.has_tag('AS'):
+    for element in bamfile:
+        if not element.is_unmapped: # if read mapped
+            if element.has_tag('AS'):  # if an alignment score is calculated
                 if element.is_read1:
-                    read_id = '{0}_1'.format(element.qname)
+                    read_id = '{0}_1'.format(element.qname) # get read direction
                 else :
                     read_id = '{0}_2'.format(element.qname)
-                score = element.get_tag('AS')
-                prev_score = tmp_score.get(read_id, score)
-                if prev_score == score:
+                score = element.get_tag('AS') # get alignment score
+                prev_score = tmp_score.get(read_id, score) # get previous score 
+                                                           # for the read
+                # if same score
+                if prev_score == score: 
                     tmp_score[read_id] = score
+                    # add the genome to the list if it doesn't exist
                     if element.reference_name not in tmp_genomes[read_id]:
                         tmp_genomes[read_id].append(element.reference_name)
                         if (count == "ex-aequo") or bam:
-                            reads[read_id].append(element)
+                            reads[read_id].append(element) # append line for
+                                                           # filtered BAM file
+                # if previous score is lower
                 elif prev_score < score:
-                    tmp_score[read_id] = score
-                    tmp_genomes[read_id] = [element.reference_name]
+                    tmp_score[read_id] = score # set the new score
+                    # reinitialise all
+                    tmp_genomes[read_id] = [element.reference_name] 
                     if (count == "ex-aequo") or bam:
                         reads[read_id] = [element]
             else :
                 sys.exit("[FATAL error] Parsing sam file : no optional 'AS' field.\n")
 
-    samfile.close()
+    bamfile.close()
 
+    # writing a bam file for ex-aequo counting and if a bam=True
     if (count == "ex-aequo") or bam:
         read_list = list(itertools.chain(reads.values()))
         merged_list = list(itertools.chain.from_iterable(read_list))
-
-        ex_aequo_reads = pysam.AlignmentFile(new_filename, "wb", template=samfile)
+        # writing the filtered BAM file
+        ex_aequo_reads = pysam.AlignmentFile(new_filename, "wb", template=bamfile)
         for element in merged_list:
             ex_aequo_reads.write(element)
         ex_aequo_reads.close()
+        # return the filename, once written
         if count == "ex-aequo":
             return new_filename
+        # if bam, sort the BAM file
         if bam:
             sortfile = os.path.dirname(filename) + "/filtered_" + os.path.basename(filename)[:-4]
             pysam.sort(new_filename, sortfile)
-        
+    
+    # returns reads and alignements informations if shared counting
     if (count =="shared") or bam:
         for (key,values) in tmp_genomes.iteritems():
             tmp_genomes[key] = list(set(values))   
@@ -177,14 +271,14 @@ def uniq_from_mult(genome_dict, unique_dict):
     only on one genome.
 
     Args:
-        genome_dict [dict] = dictionary containing reads as key and a list of 
+        genome_dict [DICT] = dictionary containing reads as key and a list of 
                              genome where read mapped as value
-        unique_dict [dict] = contains for each reference genome the number of 
+        unique_dict [DICT] = contains for each reference genome the number of 
                              unique reads
 
     Returns:
-        genome_dict [dict] = the dictionary without unique reads
-        unique_dict [dict] = nb of unique read of each reference genome
+        genome_dict [DICT] = the dictionary without unique reads
+        unique_dict [DICT] = nb of unique read of each reference genome
     """
     unique_reads = []
 
@@ -206,63 +300,76 @@ def calculate_Co(genome_dict, unique_dict):
     Calculate genome specific coefficient "Co" for each multiple read.
 
     Args:
-        genome_dict [dict] = Contains for each multiple read, all the reference
-                             genome name where he mapped
-        unique_dict [dict] = nb of unique read of each reference genome
+        genome_dict [DICT] = Contains for each multiple read, all the reference
+                             genomes name where he mapped
+        unique_dict [DICT] = nb of unique read of each reference genome
 
     Returns:
-        Co [dict] = contains coefficient values for each couple (read, genome)
+        Co [DICT] = contains coefficient values for each couple (read, genome)
+        read_dict [DICT] = contains all the multiple reads of a genome
+                            key : genome
+                            value : list a multiple reads
     """
+    # initialise
     Co = {}
     read_dict = dict()
 
     for key in genome_dict:
+        # for a multiple read, gets nb of unique reads from each genome
         s = [ unique_dict[genome] for genome in genome_dict[key] ]
-        som = reduce(lambda x,y : x+y, s)
+        som = reduce(lambda x,y : x+y, s) # total number of unique reads 
         if (som != 0):
             for genome in genome_dict[key]:
-                nb_unique = unique_dict[genome]
+                nb_unique = unique_dict[genome] # get the nb of unique reads
                 if(nb_unique != 0):
-                    Co[(key, genome)] = nb_unique/float(som)
-                    read_dict.setdefault(genome, []).append(key)
+                    # calculate Co of multiple read for the given genome
+                    Co[(key, genome)] = nb_unique/float(som) 
+                    read_dict.setdefault(genome, []).append(key) # append to 
+                                                                 # the dict
 
+    # get all the multiple reads of a genome
     for genome, reads in read_dict.iteritems():
-        read_dict[genome] = list(set(reads))
+        read_dict[genome] = list(set(reads)) 
 
     return read_dict, Co
 
 
 def calcul_AbM(unique_dict, read_dict, Co_dict, multiple_dict):
     """
-    Calculates multiple reads abundance for each genome
+    Calculates multiple reads abundance for each genome.
+    Multiple reads abundance of a genome is equal to the sum of all Co 
+    coefficient 
 
     Args:
-        unique_dict [dict] = nb of unique read of each reference genome
-        Co_dict [dict] = contains coefficient values for each couple 
+        unique_dict [DICT] = nb of unique read of each reference genome
+        read_dict [DICT] = list of multiple read for each reference genome
+        Co_dict [DICT] = contains coefficient values for each couple 
                          (read, genome)
-        multiple_dict [dict] = abundance of multiple reads for each genome
+        multiple_dict [DICT] = abundance of multiple reads for each genome
 
     Returns:
-        multiple_dict [dict] = abundance of multiple reads for each genome
+        multiple_dict [DICT] = abundance of multiple reads for each genome
     """
     for genome in read_dict:
+        # get a list of all the Co coefficient for each reference genome 
         s = [Co_dict[(read, genome)] for read in read_dict[genome]]
-        som = sum(s)
-        multiple_dict[genome] = som
+        som = sum(s) # sum them, (we obtain the abundance)
+        multiple_dict[genome] = som 
 
     return multiple_dict
 
 
 def calcul_AbS(unique_dict, multiple_dict):
     """
-    Calculates the abundance of a each genome
+    Calculates the abundance of a each genome.
+        Abundance = Abundance unique reads + Abundance multiple reads
 
     Args:
-        unique_dict [dict] = nb of unique read of each reference genome
-        multiple_dict [dict] = abundance of multiple reads for each genome
+        unique_dict [DICT] = nb of unique read of each reference genome
+        multiple_dict [DICT] = abundance of multiple reads for each genome
 
     Returns:
-        abundance_dict [dict] = contains abundance of each reference genome 
+        abundance_dict [DICT] = contains abundance of each reference genome 
     """
     abundance_dict = {}
 
@@ -274,17 +381,18 @@ def calcul_AbS(unique_dict, multiple_dict):
 
 def write_stat(output, abundance_dict, database):
     """
-    Write count table
+    Write count table.
     
     Args:
-        output [string] = output filename
-        abundance_dict [dict] = contains abundance of each reference genome
-        database [dict] = contrains length of each reference genome
+        output [STRING] = output filename
+        abundance_dict [DICT] = contains abundance of each reference genome
+        database [DICT] = contrains length of each reference genome
+    
+    No Returns
     """
     with open(output, 'wt') as out:
         for genome, abundance in abundance_dict.items():
             out.write('{0}\t{1}\t{2}\n'.format(genome, database[genome], abundance))
-
 
 
 #---------------------------- PROGRAMME MAIN ----------------------------------#
@@ -380,7 +488,7 @@ if __name__ == '__main__' :
             bam=True
         else:
             bam = False
-        
+
         db, genomes = read_bam(bamfile, "shared", bam)     
 
         # create dictionaries
