@@ -445,41 +445,22 @@ if __name__ == '__main__' :
     
     parser = argparse.ArgumentParser(
       formatter_class = RawTextHelpFormatter,
-      usage = color.BOLD + '\r       ' +
+
+      description = color.BOLD + '\r       ' +
 """
              MBMA - A Mapping Based Microbiome Analysis tool for
                 species and resistance genes quantification  
 
-SYNOPSIS
-
-""" + color.END + """
-  (A)   %(prog)s mapping -i input_dir -o output_dir -q SGE_queue -e email@pasteur.fr 
-                        -db database_index [--bowtie2 | --bwa | --novo] 
-                        [--best | --ex_aequo | --shared] [options]
-
-  (B)   %(prog)s variant -i input_dir -o output_dir -q SGE_queue -e email@pasteur.fr
-                        -db database_index [--bowtie2 | --bwa | --novo] 
-                        [--best | --ex_aequo | --shared] [options] -fa database.fasta 
-                        -matrice variants_dir [options]
-
-  (C)   %(prog)s mode -i input_dir -o output_dir -q SGE_queue -e email@pasteur.fr
-                     [--species | --resistance]
-
-    options : [--threads NN] [--mode {SE,PE}] [--jobname STR] [--strict] [-h]
-\n
-""",
-
-      description = color.BOLD + """
 DESCRIPTION
 
     MBMA """ + color.END + """ identifies and quantifies constituents (species, resistance genes) 
     from metagenomic samples by mapping reads against a database and performing 
     variant calling. It can be used to quantify any other constituents by
     changing the database. It has 3 way of working. It can simply mapped reads 
-    against an indexed reference database (A), using different mapping tools
-    (bowtie2, bwa and novoalign) and different counting methods (best, ex-aequo
-    and shared), for non redundant databases. Either perform, in addition, a
-    variant calling step, by mapping reads against a clustered redundant database,
+    against an indexed reference database (A), using different mapping 
+    tools (bowtie2, bwa and novoalign) and different counting methods (best, 
+    ex-aequo and shared), for non redundant databases. Either perform, in addition,
+    a variant calling step, by mapping reads against a clustered redundant database,
     to able an accurate quantification at a gene level (B). It also provide two 
     presets modes (C) for the identification of species (option : --species) 
     and resistance genes (option : --resistance) by mapping reads against the 
@@ -545,7 +526,6 @@ SYNOPSIS - MBMA mapping
                  -db database_index [--bowtie2 | --bwa | --novo] 
                  [--best | --ex_aequo | --shared] [options]
     
-
     options : [--threads NN] [--mode {SE,PE}] [--jobname STR] [--strict] [-h]
 
 """,
@@ -696,7 +676,6 @@ SYNOPSIS - MBMA variant
                  -db database_index [--bowtie2 | --bwa | --novo] 
                  [--best | --ex_aequo | --shared] [options] -fa database.fasta 
                  -matrice variants_dir [options]
-
 
     options : [--threads NN] [--mode {SE,PE}] [--jobname STR] [--strict] [-h]
 
@@ -873,7 +852,8 @@ SYNOPSIS - MBMA mode
 
 """,
         formatter_class = RawTextHelpFormatter,
-        help='Presets modes for bacterial species and resistance genes quantification',
+        help="Presets modes for bacterial species and resistance\n"
+             "genes quantification",
         description=color.BOLD + """
 DESCRIPTION
 
