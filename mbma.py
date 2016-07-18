@@ -231,7 +231,7 @@ def write_tmp_file(file_list, output):
     return output
 
 
-def write_soum(param):
+def write_soum(template, param):
     """
     Write the qsub submission script.
 
@@ -241,73 +241,14 @@ def write_soum(param):
     
     No returns
     """
-
-    soumis = """#!/bin/sh
-
-#$ -S /bin/bash
-#$ -M {email}
-#$ -m bea
-#$ -q {queue}
-#$ -N {jobname}
-#$ -j y
-#$ -o {stdout}
-#$ -pe thread {threads} 
-#$ -t 1-{num}
-
-### MODULES
-module add Python/2.7.8 {modules}
-
-### INPUT FILES
-{input}
-
-### INPUT FILE BASENAME
-BASE=`basename ${{INFILE_1%{ext}}}`
-
-### OUTPUT DIRECTORY
-OUTDIR={outdir}
-
-### FUNCTIONS
-function timer()
-{{
-    if [[ $# -eq 0 ]]; then
-        echo $(date '+%s')
-    else
-        local  stime=$1
-        etime=$(date '+%s')
-        if [[ -z '$stime' ]]; then stime=$etime; fi
-        dt=$((etime - stime))
-        ds=$((dt % 60))
-        dm=$(((dt / 60) % 60))
-        dh=$((dt / 3600))
-        printf '%d:%02d:%02d' $dh $dm $ds
-    fi
-}}
-
-###PROGRAMS
-export LD_LIBRARY_PATH=/pasteur/projets/Matrix/metagenomics/htslib/lib:$LD_LIBRARY_PATH
-export PYTHONPATH=/pasteur/projets/Matrix/metagenomics/python-lib/lib/python2.7/site-packages/:$PYTHONPATH
-
-echo $date
-echo "Mapping files: $INFILE_1 & $INFILE_2" 
-start_time=$(timer)
-echo "Started at " $(date +"%T") 
-
-start_time_{map_tool}=$(timer)
-echo "Mapping with {map_tool} started at $(date +"%T")"
-{map_cmd}
-echo "Elapsed time with {map_tool} : $(timer $start_time_{map_tool})"
-
-start_time_{count_tool}=$(timer)
-echo "Mapping analysis with {count_tool} started at $(date +"%T")"
-python {script_loc}/counting.py $OUTDIR/sam/${{BASE}}.sam \
-$OUTDIR/comptage/${{BASE}}.txt --{count_tool} {bam}
-echo "Elapsed time with {count_tool} : $(timer $start_time_{count_tool})"
-{variant}
-echo "Total duration :  $(timer $start_time)" """
-
+    # read the template
+    filein = open(template, "rt")
+    temp = filein.read()
     # Write the submission script
-    with open("{0}/soumission.sh".format(args['outdir']), "wt") as out:
-        out.write(soumis.format(**param))
+    with open("{0}/submission.sh".format(args['outdir']), "wt") as out:
+        out.write(temp.format(**param))
+    # close the template
+    filein.close()
 
 
 def progress(count, total, suffix=''):
@@ -461,7 +402,6 @@ if __name__ == '__main__' :
     # mapping tools    
         # Bowtie2
     if 'bowtie2' in args :
-        args['modules'] = "bowtie2/2.2.6 "
         args['map_tool'] = args['bowtie2']
         
         # commandline for bowtie2
@@ -490,7 +430,6 @@ if __name__ == '__main__' :
     
         ### BWA
     elif 'bwa' in args :
-        args['modules'] = "bwa/0.7.7 "
         args['map_tool'] = args['bwa']
         
         # commandline for bwa
@@ -518,7 +457,6 @@ if __name__ == '__main__' :
     
         # Novoalign
     elif 'novo' in args :
-        args['modules'] = "novocraft/V3.02.12 "
         args['map_tool'] = args['novo']
         
         # commandline for novo
@@ -560,8 +498,6 @@ if __name__ == '__main__' :
     # variant calling
     args['variant']= ""
     if 'ref_fasta' in args:
-        args['modules'] += ("samtools/1.2 GenomeAnalysisTK/3.4-0 "
-                            "picard-tools/1.94 ")
         args['variant'] = ("""
 start_time_variant=$(timer)
 echo "Variant calling analysis with GATK started at $(date +"%T")"
@@ -589,8 +525,9 @@ echo "Elapsed time with GATK : $(timer $start_time_variant)
 
     # LAUNCH QSUB SOUMISSION SCRIPT --------------------------------------------
 
+    submission_template = script_path + '/submission_template.sh'
     try :
-        write_soum(args)
+        write_soum(submission_template, args)
     except (IOError, OSError) :
         shutil.rmtree(args['outdir'])
         sys.exit("Error : Writing submission script")
@@ -598,7 +535,7 @@ echo "Elapsed time with GATK : $(timer $start_time_variant)
         shutil.rmtree(args['outdir'])
         sys.exit("Unexpected error: {0}".format(sys.exc_info()[0]))
 
-    commandline = "qsub {outdir}/soumission.sh".format(**args)
+    commandline = "qsub {outdir}/submission.sh".format(**args)
     arg_split = shlex.split(commandline)
     
     with open("{0}/stdout.txt".format(args['outdir']),"at") as out, \
