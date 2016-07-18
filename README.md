@@ -9,7 +9,6 @@ A Mapping Based Microbiome Analysis tool for species and resistance genes quanti
 (1) a more efficient and discriminatory database for rapid quantification, 
 <br />
 (2) an optimized counting method to decrease the false discovery rate,
-
 combined with (3) variant calling from samples sequences for an accurate abundance prediction
 
 ## Version
