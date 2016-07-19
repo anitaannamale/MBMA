@@ -67,7 +67,7 @@ def is_sam(path):
 
     else :
         ext = os.path.splitext(abs_path)[1] # get the file extension
-        if ext != 'sam':
+        if ext != '.sam':
             msg = ("{0} isn't a sam file. "
                   "Please, provide a file with extension .sam".format(abs_path))
 

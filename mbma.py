@@ -245,7 +245,7 @@ def write_soum(template, param):
     filein = open(template, "rt")
     temp = filein.read()
     # Write the submission script
-    with open("{0}/submission.sh".format(args['outdir']), "wt") as out:
+    with open("{0}/submission.sh".format(param['outdir']), "wt") as out:
         out.write(temp.format(**param))
     # close the template
     filein.close()
