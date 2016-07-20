@@ -57,6 +57,7 @@ def is_database(dbname, prog):
         return db
 
     db_dir = os.path.dirname(db) # database directory
+    db_basename = os.path.splitext(os.path.basename(db))[0]
 
     # for bowtie2, check 6 files exists in the directory with the index 
     # extension .bt2
@@ -64,6 +65,7 @@ def is_database(dbname, prog):
         ext = ['.bt2', '.bt2l']
         onlyfiles = [f for f in os.listdir(db_dir) 
                      if os.path.isfile(os.path.join(db_dir, f))
+                     and f.startswith(db_basename) 
                      and (os.path.splitext(f)[1] in ext)]
         if not len(onlyfiles) == 6:
             sys.exit("[ERROR] The database isn't indexed with Bowtie2")
@@ -73,7 +75,8 @@ def is_database(dbname, prog):
     if prog == 'bwa':
         ext = ['.amb', '.ann', '.bwt', '.pac', '.sa']
         onlyfiles = [f for f in os.listdir(db_dir) 
-                     if os.path.isfile(os.path.join(db_dir, f)) 
+                     if os.path.isfile(os.path.join(db_dir, f))
+                     and f.startswith(db_basename) 
                      and (os.path.splitext(f)[1] in ext) ]
         if not len(onlyfiles) == 5:
             sys.exit("[ERROR] The database isn't indexed with BWA")
