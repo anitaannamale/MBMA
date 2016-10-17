@@ -64,10 +64,10 @@ File | Description
 ---|---
 **count_matrix.py** | Code for merging several count tables into a counting matrix
 **counting.py** | Creates counting tables by counting maped reads according to methods "best", "ex-aequo" or "shared"
-**db_index_sub.sh** | Code for indexing the database for variant calling *shoulb be modified according to your computing cluster*
+**db_index_sub.sh** | Code for indexing the database for variant calling * *should be modified according to your computing cluster*
 **help.py** | commandline parsing arguments
 **mbma.py** | Main program
-**submission_template.sh** | Code that launches task on the computing cluster *shoulb be modified according to your computing cluster*
+**submission_template.sh** | Code that launches task on the computing cluster * *should be modified according to your computing cluster*
 **variant_predict.py** | Code for creating count table from the variant calling 
 
 ## Future work
