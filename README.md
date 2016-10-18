@@ -90,15 +90,21 @@ with i a multiple read, which maps on M genes.
 
 
 MBMA mapping support gzip compressed FASTQ input files and auto-detected from the file name.
+You should provide a directory containing all the FASTQ files.
 When using Paired-end data, paired files must be named : 
 
     file_R1.[fastq/fq] & file_R2.[fastq/fq]
     OR
     file_1.[fastq/fq] & file_2.[fastq/fq]
     
-Given options are :
+
+MBMA provide the possibility to increase the stringency level of the mapping by using the option *--strict*. To increase the strengency of mapping, the minimum score threshold required for an alignement to be considered as "valid" is increased. For bowtie2, the strict score is 40 + 8.0 * ln(L), where L is the read length (default is 20 + 8.0 * ln(L)). For BWA, the strict score is 60 (default is 30). 
 
 ### Examples
+
+    MBMA mapping -i data -o output -db database_index -e email@pasteur.fr -q hubbioit --bowtie2 --shared
+    MBMA mapping -i data -o output -db database_index -e email@pasteur.fr -q hubbioit --bwa --best --strict
+    MBMA mapping -i data -o output -db database_index -e email@pasteur.fr -q hubbioit --bwa --ex-aequo --strict
 
 ## MBMA variant
 
