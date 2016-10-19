@@ -141,7 +141,7 @@ To run the identification and quantification of resistance genes from clinical s
 This option will run MBMA variant bu aligning reads against a reduced ResFinder database, using *bowtie2*, option *--strict*, *shared* counting method and provided *variant matrices* of ResFinder, for resistance genes identification and quantification. 
 
 ## Code
-This code is written in Python
+This code is written in Python. Are preceded by * executable code.
 
 File | Description
 ---|---
@@ -149,12 +149,12 @@ File | Description
 **counting.py** | Creates counting tables by counting maped reads according to methods "best", "ex-aequo" or "shared"
 **db_index_sub.sh** | Submission script for indexing the database for variant calling * *should be modified according to your computing cluster*
 **help.py** | commandline parsing arguments
-**mbma.py** | Main program
+** * mbma.py** | Main program
 **submission_template.sh** | Code that launches task on the computing cluster * *should be modified according to your computing cluster*
 **variant_predict.py** | Code for creating count table from the variant calling 
 **cluster2multifasta.py** | Create a nucleotide sequence multifasta file for each cluster
 **job_make_matrices.sh** | Submission script to clusterize a database and creates variant matrices. * *should be modified according to your computing cluster*
-**make_matrices.py** | Code that clusterize a database and creates variant matrices.
+** * make_matrices.py** | Code that clusterize a database and creates variant matrices.
 
 ## Future work
 
@@ -168,10 +168,12 @@ To test MBMA variant (or MBMA mode --resistance) for resistance gene identificat
 
 ## References
 
-*Ciccarelli, Francesca D et al. 
-**Toward automatic reconstruction of a highly resolved tree of life.**" science 311.5765 (2006): 1283-1287. DOI:10.1126/science.1123061
+* Ciccarelli FD, Doerks T, von Mering C, Creevey CJ, Snel B, Bork P. (2006)
+**Toward automatic reconstruction of a highly resolved tree of life.**
+*Science* 311.5765 : 1283-1287. 
+DOI:[10.1126/science.1123061](http://dx.doi.org/10.1126/science.1123061)
 
-*Zankari E1, Hasman H, Cosentino S, Vestergaard M, Rasmussen S, Lund O, Aarestrup FM, Larsen MV. (2012)
+* Zankari E, Hasman H, Cosentino S, Vestergaard M, Rasmussen S, Lund O, Aarestrup FM, Larsen MV. (2012)
 **Identification of acquired antimicrobial resistance genes.**
 *Journal of antimicrobial chemotherapy*, 67.11: 2640-2644. 
 DOI:[10.1093/jac/dks261](http://dx.doi.org/10.1093/jac/dks261)
