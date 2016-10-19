@@ -104,9 +104,9 @@ When using Paired-end data, paired files must be named :
 
 ### Examples
 
-    MBMA mapping -i data -o output -db database_index -e email@pasteur.fr -q hubbioit --bowtie2 --shared
-    MBMA mapping -i data -o output -db database_index -e email@pasteur.fr -q hubbioit --bwa --best --strict
-    MBMA mapping -i data -o output -db database_index -e email@pasteur.fr -q hubbioit --bwa --ex-aequo --strict
+    MBMA mapping -i data -o output -db database_index -e email@pasteur.fr -q queue --bowtie2 --shared
+    MBMA mapping -i data -o output -db database_index -e email@pasteur.fr -q queue --bwa --best --strict
+    MBMA mapping -i data -o output -db database_index -e email@pasteur.fr -q queue --bwa --ex-aequo --strict
 
 ## MBMA variant
 
@@ -122,11 +122,23 @@ User can create their own reduced database by running the script *make_matrices.
 
 ### Examples
 
-    MBMMA variant -i data -o output -db database_index -fa database.fa -matrice VCF_matrices/ -t 4 -e email@pasteur.fr -q SGEqueue --bowtie2 --shared
+    MBMMA variant -i data -o output -db database_index -fa database.fa -matrice VCF_matrices/ -t 4 -e email@pasteur.fr -q queue --bowtie2 --shared
 
 ## MBMA mode
 
-### Examples
+**MBMA mode** is a preset set of options and arguments to identify and quantify bacterial species and resistant genes from metagenomics samples.
+
+To run the identification and quantification of bacterial species from clinical samples, simply run the option **--species**:
+
+    MBMA mode -i data -o output -t 8 -e email@pasteur.fr -q queue --species
+
+This option will run MBMA mapping by aligning reads against RefMG.v1 database, using *bowtie2*, option *--strict* and *shared* counting method for bacterial species identification and quantification.
+
+To run the identification and quantification of resistance genes from clinical samples, simply run the option **--resistance**:
+
+    MBMA mode -i data -o output -e email@pasteur.fr -q queue --resistance
+
+This option will run MBMA variant bu aligning reads against a reduced ResFinder database, using *bowtie2*, option *--strict*, *shared* counting method and provided *variant matrices* of ResFinder, for resistance genes identification and quantification. 
 
 ## Code
 This code is written in Python
@@ -148,4 +160,6 @@ File | Description
 
 ## Test Datasets
 
+
 ## References
+
