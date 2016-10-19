@@ -16,7 +16,9 @@ A Mapping Based Microbiome Analysis tool for species and resistance genes quanti
 - **variant**, it performs, in addition to the mapping step, a variant calling step. Reads are mapped against a clustered database, and then variant calling using GATK is performed, to able an accurate quantification at a gene level.
 - **mode**, it provide two presets modes for the identification of species (option : --species) and resistance genes (option : --resistance). For bacterial species, reads are mapped reads against *RefMG.v1*, and for resistance genes, against *ResFinder*. 
 
-MBMA works with both Paired-end and Single-end reads. It can directly read input FASTQ files that are compressed using gzip. User should provide a database that is indexed with bowtie2, bwa or Novocraft.
+**MBMA** works with both Paired-end and Single-end reads. It can directly read input FASTQ files that are compressed using gzip. User should provide a database that is indexed with bowtie2, bwa or Novocraft.
+
+**MBMA** works with nucleotide database 
 
 MBMA run on executing tasks on a cluster. Informations about user's computing cluster should be given in the file *submission_template.sh*
 
@@ -66,7 +68,7 @@ For more informations, see MBMA help, by running:
 
 Three mapping tool are available to map reads : **BWA**, **Bowtie2**, and **Novocraft**
 
-MBMA mapping mode uses an **indexed database** with the selected mapping tool. 
+**MBMA mapping** mode uses an **indexed database** with the selected mapping tool. 
 
 Three counting methods are available to count read that map to a reference sequence : **best**, **ex-aequo**, and **shared**
 
@@ -89,7 +91,7 @@ with i a multiple read, which maps on M genes.
     For example, if a gene G is mapped by 10 reads that only map to it (unique reads), and by one read that map to it and also on a gene X which is mapped by 5 unique reads, then :      ![equation](https://latex.codecogs.com/gif.latex?A_%7Bg%7D%3D%2010%20&plus;%20%5Cfrac%7B10%7D%7B10&plus;5%7D%5Capprox%2010.7)
 
 
-MBMA mapping support gzip compressed FASTQ input files and auto-detected from the file name.
+**MBMA mapping** supports gzip compressed FASTQ input files and auto-detected from the file name.
 You should provide a directory containing all the FASTQ files.
 When using Paired-end data, paired files must be named : 
 
@@ -98,7 +100,7 @@ When using Paired-end data, paired files must be named :
     file_1.[fastq/fq] & file_2.[fastq/fq]
     
 
-MBMA provide the possibility to increase the stringency level of the mapping by using the option *--strict*. To increase the strengency of mapping, the minimum score threshold required for an alignement to be considered as "valid" is increased. For bowtie2, the strict score is 40 + 8.0 * ln(L), where L is the read length (default is 20 + 8.0 * ln(L)). For BWA, the strict score is 60 (default is 30). 
+**MBMA ** provides the possibility to increase the mapping stringency level by using the option *--strict*. To increase the strengency of mapping, the minimum score threshold required for an alignement to be considered as "valid" is increased. For bowtie2, the strict score is 40 + 8.0 * ln(L), where L is the read length (default is 20 + 8.0 * ln(L)). For BWA, the strict score is 60 (default is 30). 
 
 ### Examples
 
@@ -108,7 +110,19 @@ MBMA provide the possibility to increase the stringency level of the mapping by 
 
 ## MBMA variant
 
+**MBMA variant** is useful when the database is redundant, in cases where genes are too similar and may differ by only one nucleotide (for example resistant genes databases like ResFinder).
+It allows an accurate quantification of genes for a redundant database.
+
+**MBMA variant** works in two step process. First, reads are mapped against an reduced database, then using the alignement file (BAM file), variant calling is performed using GATK creating a variant profile, finally by comparing the variant profile with matrix of variant, the allele of genes are identified and their abundance are estimated.
+
+A **reduced database of ResFinder** is given as test datasets. This reduced database is a clustered one by **CDHIT-est** at 98% of nucleotide identity in atleast 90% of coverage of the smallest sequence. From the formed clusters, a matrix of variant profile of the database's sequences is created. 
+
+*How to create a own reduced database :*
+User can create their own reduced database by running the script *make_matrices.py*
+
 ### Examples
+
+    MBMMA variant -i data -o output -db database_index -fa database.fa -matrice VCF_matrices/ -t 4 -e email@pasteur.fr -q SGEqueue --bowtie2 --shared
 
 ## MBMA mode
 
@@ -121,11 +135,14 @@ File | Description
 ---|---
 **count_matrix.py** | Code for merging several count tables into a counting matrix
 **counting.py** | Creates counting tables by counting maped reads according to methods "best", "ex-aequo" or "shared"
-**db_index_sub.sh** | Code for indexing the database for variant calling * *should be modified according to your computing cluster*
+**db_index_sub.sh** | Submission script for indexing the database for variant calling * *should be modified according to your computing cluster*
 **help.py** | commandline parsing arguments
 **mbma.py** | Main program
 **submission_template.sh** | Code that launches task on the computing cluster * *should be modified according to your computing cluster*
 **variant_predict.py** | Code for creating count table from the variant calling 
+**cluster2multifasta.py** | Create a nucleotide sequence multifasta file for each cluster
+**job_make_matrices.sh** | Submission script to clusterize a database and creates variant matrices. * *should be modified according to your computing cluster*
+**make_matrices.py** | Code that clusterize a database and creates variant matrices.
 
 ## Future work
 
