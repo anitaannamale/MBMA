@@ -132,7 +132,7 @@ To run the identification and quantification of bacterial species from clinical 
 
     MBMA mode -i data -o output -t 8 -e email@pasteur.fr -q queue --species
 
-This option will run MBMA mapping by aligning reads against RefMG.v1 database, using *bowtie2*, option *--strict* and *shared* counting method for bacterial species identification and quantification.
+This option will run MBMA mapping by aligning reads against RefMG.v1.padded database, using *bowtie2*, option *--strict* and *shared* counting method for bacterial species identification and quantification.
 
 To run the identification and quantification of resistance genes from clinical samples, simply run the option **--resistance**:
 
@@ -160,6 +160,18 @@ File | Description
 
 ## Test Datasets
 
+Test datasets will be soon provided.
+
+To test MBMA mapping (or MBMA mode --species) for bacterial species identification RefMG.v1.padded database is provided in the folder databases.
+
+To test MBMA variant (or MBMA mode --resistance) for resistance gene identification the clustered ResFinder database is provided in the folder databases and his variant profile matrice is in the folder matrices.
 
 ## References
 
+*Ciccarelli, Francesca D et al. 
+**Toward automatic reconstruction of a highly resolved tree of life.**" science 311.5765 (2006): 1283-1287. DOI:10.1126/science.1123061
+
+*Zankari E1, Hasman H, Cosentino S, Vestergaard M, Rasmussen S, Lund O, Aarestrup FM, Larsen MV. (2012)
+**Identification of acquired antimicrobial resistance genes.**
+*Journal of antimicrobial chemotherapy*, 67.11: 2640-2644. 
+DOI:[10.1093/jac/dks261](http://dx.doi.org/10.1093/jac/dks261)
