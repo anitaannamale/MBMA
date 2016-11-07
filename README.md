@@ -53,6 +53,15 @@ cd MBMA-master
 ./mbma 
 ```
 
+To launch MBMA, computer cluster parameters should be specified in 3 files :
+  - db_index_sub.sh : line 1 & 3
+  - submission_template.sh  : line 1-14
+  - job_make_matrices.sh : line 1-12
+
+Modify the corresponding lines according to your computer cluster. 
+
+**/!\ Do not modify the words in brackets**
+
 ## Usage
 MBMA works with paired-end and single-end reads.
 
